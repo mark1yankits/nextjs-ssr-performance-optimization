@@ -37,3 +37,7 @@ npm run dev
   Next.js фоново перегенеровує її при наступному запиті (stale-while-revalidate). Поведінку кешу
   видно лише в production-режимі — `npm run build && npm run start` (у `npm run dev` Next.js
   завжди рендерить наживо).
+- `/streaming` — **Streaming SSR**: заголовок рендериться і надсилається одразу, а список статей
+  (`SlowArticleSection.tsx`) обгорнутий у `<Suspense>` й навмисно затриманий на 2с — щоб показати
+  різницю між TTFB і повним завантаженням. Перевірено `curl -w`: TTFB ≈ 0.1с, повний час — ≈ 2.1с
+  (для порівняння: на `/ssr` TTFB ≈ повний час, бо там немає Suspense-меж).

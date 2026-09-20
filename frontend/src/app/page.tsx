@@ -15,6 +15,9 @@ export default function Home() {
         <li>
           <Link href="/isr">ISR</Link> — кешування з фоновою ревалідацією (30с)
         </li>
+        <li>
+          <Link href="/streaming">Streaming</Link> — Suspense-стрімінг частини сторінки
+        </li>
       </ul>
     </div>
   );

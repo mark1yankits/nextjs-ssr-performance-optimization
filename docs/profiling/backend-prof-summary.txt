@@ -1,0 +1,1400 @@
+(node:38499) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Statistical profiling result from isolate-0xa47400000-38404-v8.log, (10464 ticks, 7989 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+    181    1.7%    1.7%  Builtin: LoadIC
+    147    1.4%    1.4%  Builtin: KeyedLoadIC_Megamorphic
+    133    1.3%    1.3%  Builtin: LoadIC_Megamorphic
+     51    0.5%    0.5%  Builtin: StringAdd_CheckNone
+     45    0.4%    0.4%  Builtin: KeyedStoreIC_Megamorphic
+     43    0.4%    0.4%  Builtin: StoreIC_Megamorphic
+     40    0.4%    0.4%  RegExp: [^\t\x20-\x7e\x80-\xff]
+     32    0.3%    0.3%  Builtin: KeyedLoadIC
+     30    0.3%    0.3%  RegExp: ^[\^_`a-zA-Z\-0-9!#$%&'*+.|~]+$
+     30    0.3%    0.3%  JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+     30    0.3%    0.3%  Builtin: RecordWriteSaveFP
+     28    0.3%    0.3%  Builtin: StoreIC
+     27    0.3%    0.3%  JS: *_storeHeader node:_http_outgoing:454:22
+     26    0.2%    0.2%  Builtin: LoadICTrampoline_Megamorphic
+     20    0.2%    0.2%  Builtin: CallFunction_ReceiverIsNotNullOrUndefined
+     19    0.2%    0.2%  Builtin: ToBooleanForBaselineJump
+     19    0.2%    0.2%  Builtin: KeyedStoreIC
+     19    0.2%    0.2%  Builtin: KeyedLoadIC_PolymorphicName
+     19    0.2%    0.2%  Builtin: CEntry_Return1_ArgvOnStack_NoBuiltinExit
+     18    0.2%    0.2%  Builtin: RegExpPrototypeTestFast
+     18    0.2%    0.2%  Builtin: GetProperty
+     17    0.2%    0.2%  Builtin: StrictEqual_Baseline
+     17    0.2%    0.2%  Builtin: CreateTypedArray
+     17    0.2%    0.2%  Builtin: Call_ReceiverIsNotNullOrUndefined_Baseline_Compact
+     16    0.2%    0.2%  Builtin: StringToLowerCaseIntl
+     16    0.2%    0.2%  Builtin: ObjectPrototypeHasOwnProperty
+     16    0.2%    0.2%  Builtin: CallFunction_ReceiverIsAny
+     14    0.1%    0.1%  Builtin: CallFunction_ReceiverIsNullOrUndefined
+     14    0.1%    0.1%  Builtin: BaselineOutOfLinePrologue
+     13    0.1%    0.1%  JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+     13    0.1%    0.1%  JS: *nextTick node:internal/process/task_queues:113:18
+     13    0.1%    0.1%  Builtin: LoadGlobalIC
+     13    0.1%    0.1%  Builtin: ArrayPrototypeJoin
+     12    0.1%    0.1%  JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+     12    0.1%    0.1%  Builtin: FulfillPromise
+     11    0.1%    0.1%  JS: *Writable.write node:internal/streams/writable:504:36
+     11    0.1%    0.1%  JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:98:31
+     11    0.1%    0.1%  Builtin: LoadICBaseline
+     11    0.1%    0.1%  Builtin: Call_ReceiverIsNullOrUndefined_Baseline_Compact
+     11    0.1%    0.1%  Builtin: Call_ReceiverIsNotNullOrUndefined
+     10    0.1%    0.1%  JS: *parserOnHeadersComplete node:_http_common:71:33
+     10    0.1%    0.1%  Builtin: ToString
+     10    0.1%    0.1%  Builtin: CreateShallowObjectLiteral
+     10    0.1%    0.1%  Builtin: CompileLazy
+     10    0.1%    0.1%  Builtin: BaselineLeaveFrame
+      9    0.1%    0.1%  RegExp: ;|,
+      9    0.1%    0.1%  JS: *setStreamTimeout node:internal/stream_base_commons:236:26
+      9    0.1%    0.1%  JS: *execute /Users/markkits/Desktop/practic/backend/node_modules/redis-parser/lib/parser.js:491:11
+      9    0.1%    0.1%  Builtin: MapConstructor
+      9    0.1%    0.1%  Builtin: KeyedLoadICTrampoline_Megamorphic
+      9    0.1%    0.1%  Builtin: DefineNamedOwnIC
+      8    0.1%    0.1%  RegExp: ^[!#$%&'*+.^_`|~0-9A-Za-z-]+\/[!#$%&'*+.^_`|~0-9A-Za-z-]+$
+      8    0.1%    0.1%  RegExp: ;\s*charset\s*=
+      8    0.1%    0.1%  JS: *process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      8    0.1%    0.1%  JS: *Readable.read node:internal/streams/readable:647:35
+      8    0.1%    0.1%  Builtin: StringIndexOf
+      8    0.1%    0.1%  Builtin: LoadICTrampoline
+      8    0.1%    0.1%  Builtin: JSEntry
+      8    0.1%    0.1%  Builtin: FastNewObject
+      8    0.1%    0.1%  Builtin: BitwiseAnd_Baseline
+      7    0.1%    0.1%  RegExp: [\u0000-\u001f\u007f-\u009f\u2028\u2029"\\]
+      7    0.1%    0.1%  JS: *write_ node:_http_outgoing:942:16
+      7    0.1%    0.1%  JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      7    0.1%    0.1%  JS: *handle /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:136:31
+      7    0.1%    0.1%  JS: *get node:internal/streams/duplex:161:8
+      7    0.1%    0.1%  JS: *get node:_http_incoming:109:16
+      7    0.1%    0.1%  JS: *emitReadable_ node:internal/streams/readable:830:23
+      7    0.1%    0.1%  JS: *contentSecurityPolicyMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:122:49
+      7    0.1%    0.1%  JS: *Socket._writeGeneric node:net:940:42
+      7    0.1%    0.1%  Builtin: StoreFastElementIC_InBounds
+      7    0.1%    0.1%  Builtin: SetDataProperties
+      7    0.1%    0.1%  Builtin: GrowFastSmiOrObjectElements
+      7    0.1%    0.1%  Builtin: FunctionPrototypeHasInstance
+      7    0.1%    0.1%  Builtin: CreateShallowArrayLiteral
+      7    0.1%    0.1%  Builtin: CallBoundFunction
+      7    0.1%    0.1%  Builtin: ArrayPrototypePush
+      6    0.1%    0.1%  RegExp: ^[!#$%&'*+.^_`|~0-9A-Za-z-]+$
+      6    0.1%    0.1%  JS: ^arrayClone node:events:891:20
+      6    0.1%    0.1%  JS: *xXssProtectionMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:313:42
+      6    0.1%    0.1%  JS: *writeOrBuffer node:internal/streams/writable:548:23
+      6    0.1%    0.1%  JS: *resOnFinish node:_http_server:980:21
+      6    0.1%    0.1%  JS: *app.<computed> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/application.js:490:25
+      6    0.1%    0.1%  JS: *_unrefTimer node:net:525:52
+      6    0.1%    0.1%  JS: *_send node:_http_outgoing:398:49
+      6    0.1%    0.1%  Builtin: StringPrototypeReplace
+      6    0.1%    0.1%  Builtin: StringEqual
+      6    0.1%    0.1%  Builtin: RegExpReplace
+      6    0.1%    0.1%  Builtin: PromiseConstructor
+      6    0.1%    0.1%  Builtin: FastNewClosure
+      6    0.1%    0.1%  Builtin: DeleteProperty
+      5    0.0%    0.0%  RegExp: ^(?:\/([^/]+?))\/?$
+      5    0.0%    0.0%  RegExp: ; *([!#$%&'*+.^_`|~0-9A-Za-z-]+) *= *("(?:[\u000b\u0020\u0021\u0023-\u005b\u005d-\u007e\u0080-\u00ff]|\\[\u000b\u0020-\u00ff])*"|[!#$%&'*+.^_`|~0-9A-Za-z-]+) *
+      5    0.0%    0.0%  JS: ^Socket._writeGeneric node:net:940:42
+      5    0.0%    0.0%  JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/dist/utils/asyncHandler.js:5:12
+      5    0.0%    0.0%  JS: *xFrameOptionsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:283:41
+      5    0.0%    0.0%  JS: *xDnsPrefetchControlMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:256:47
+      5    0.0%    0.0%  JS: *socketListenerWrap node:_http_server:1203:37
+      5    0.0%    0.0%  JS: *shift /Users/markkits/Desktop/practic/backend/node_modules/denque/index.js:122:40
+      5    0.0%    0.0%  JS: *set /Users/markkits/Desktop/practic/backend/node_modules/express/lib/application.js:359:23
+      5    0.0%    0.0%  JS: *sendCommand /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:338:16
+      5    0.0%    0.0%  JS: *parseObject /Users/markkits/Desktop/practic/backend/node_modules/qs/lib/parse.js:168:28
+      5    0.0%    0.0%  JS: *end node:_http_outgoing:1084:45
+      5    0.0%    0.0%  JS: *cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+      5    0.0%    0.0%  JS: *Readable.on node:internal/streams/readable:1127:33
+      5    0.0%    0.0%  JS: *<anonymous> :1:20
+      5    0.0%    0.0%  Builtin: StringPrototypeTrim
+      5    0.0%    0.0%  Builtin: StoreICBaseline
+      5    0.0%    0.0%  Builtin: RegExpPrototypeExecSlow
+      5    0.0%    0.0%  Builtin: LoadIC_FunctionPrototype
+      5    0.0%    0.0%  Builtin: FastNewFunctionContextFunction
+      5    0.0%    0.0%  Builtin: Call_ReceiverIsNullOrUndefined
+      5    0.0%    0.0%  Builtin: CallApiCallbackOptimizedNoProfiling
+      5    0.0%    0.0%  Builtin: BitwiseOr_Baseline
+      4    0.0%    0.0%  RegExp: ^\/api\/articles\/?(?=\/|$)
+      4    0.0%    0.0%  JS: ^writevGeneric node:internal/stream_base_commons:121:23
+      4    0.0%    0.0%  JS: ^OutgoingMessage node:_http_outgoing:105:25
+      4    0.0%    0.0%  JS: *xContentTypeOptionsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:248:47
+      4    0.0%    0.0%  JS: *wrappedFn node:internal/errors:535:21
+      4    0.0%    0.0%  JS: *updateOutgoingData node:_http_server:766:28
+      4    0.0%    0.0%  JS: *setHeader node:_http_outgoing:697:57
+      4    0.0%    0.0%  JS: *recordStartTime /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:574:26
+      4    0.0%    0.0%  JS: *parserOnIncoming node:_http_server:1040:26
+      4    0.0%    0.0%  JS: *onevent /Users/markkits/Desktop/practic/backend/node_modules/ee-first/index.js:81:26
+      4    0.0%    0.0%  JS: *normalizeParseOptions /Users/markkits/Desktop/practic/backend/node_modules/qs/lib/parse.js:327:59
+      4    0.0%    0.0%  JS: *logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      4    0.0%    0.0%  JS: *ip /Users/markkits/Desktop/practic/backend/node_modules/express/lib/request.js:349:36
+      4    0.0%    0.0%  JS: *first /Users/markkits/Desktop/practic/backend/node_modules/ee-first/index.js:24:15
+      4    0.0%    0.0%  JS: *emit node:events:465:44
+      4    0.0%    0.0%  JS: *dispatch /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/route.js:101:45
+      4    0.0%    0.0%  JS: *crossOriginResourcePolicyMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:177:53
+      4    0.0%    0.0%  JS: *createFromString node:buffer:474:26
+      4    0.0%    0.0%  JS: *applyHeaders /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:144:24
+      4    0.0%    0.0%  JS: *OutgoingMessage node:_http_outgoing:105:25
+      4    0.0%    0.0%  JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/utils/asyncHandler.js:5:12
+      4    0.0%    0.0%  Builtin: SubString
+      4    0.0%    0.0%  Builtin: StringPrototypeSplit
+      4    0.0%    0.0%  Builtin: StringPrototypeSlice
+      4    0.0%    0.0%  Builtin: StringConstructor
+      4    0.0%    0.0%  Builtin: LessThan_Baseline
+      4    0.0%    0.0%  Builtin: JSEntryTrampoline
+      4    0.0%    0.0%  Builtin: JSConstructStubGeneric
+      4    0.0%    0.0%  Builtin: HandleApiCallOrConstruct
+      4    0.0%    0.0%  Builtin: CreateObjectWithoutProperties
+      4    0.0%    0.0%  Builtin: ConstructFunction
+      4    0.0%    0.0%  Builtin: ArrayPrototypeSlice
+      4    0.0%    0.0%  Builtin: ArrayPrototypeFlat
+      3    0.0%    0.0%  RegExp: ^text\/|^application\/(javascript|json)
+      3    0.0%    0.0%  JS: ^xContentTypeOptionsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:248:47
+      3    0.0%    0.0%  JS: ^unrefActive node:internal/timers:337:21
+      3    0.0%    0.0%  JS: ^normalizeParseOptions /Users/markkits/Desktop/practic/backend/node_modules/qs/lib/parse.js:327:59
+      3    0.0%    0.0%  JS: ^getEncodingOps node:buffer:721:24
+      3    0.0%    0.0%  JS: ^get node:internal/streams/writable:1037:8
+      3    0.0%    0.0%  JS: ^from node:buffer:298:28
+      3    0.0%    0.0%  JS: ^execute /Users/markkits/Desktop/practic/backend/node_modules/redis-parser/lib/parser.js:491:11
+      3    0.0%    0.0%  JS: ^emitCloseNT node:internal/streams/destroy:133:21
+      3    0.0%    0.0%  JS: ^debug /Users/markkits/Desktop/practic/backend/node_modules/debug/src/debug.js:65:17
+      3    0.0%    0.0%  JS: ^Socket._read node:net:725:34
+      3    0.0%    0.0%  JS: ^Readable.read node:internal/streams/readable:647:35
+      3    0.0%    0.0%  JS: *xPoweredByMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:306:38
+      3    0.0%    0.0%  JS: *xPermittedCrossDomainPoliciesMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:299:57
+      3    0.0%    0.0%  JS: *update node:internal/crypto/hash:107:40
+      3    0.0%    0.0%  JS: *toWritable /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Command.js:111:15
+      3    0.0%    0.0%  JS: *slowCases node:internal/util:217:19
+      3    0.0%    0.0%  JS: *runInAsyncScope node:async_hooks:204:18
+      3    0.0%    0.0%  JS: *returnReply /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:20:26
+      3    0.0%    0.0%  JS: *resume_ node:internal/streams/readable:1254:17
+      3    0.0%    0.0%  JS: *processPromiseRejections node:internal/process/promises:439:34
+      3    0.0%    0.0%  JS: *onwrite node:internal/streams/writable:615:17
+      3    0.0%    0.0%  JS: *noop node:internal/util/debuglog:57:14
+      3    0.0%    0.0%  JS: *matchKnownFields node:_http_incoming:276:26
+      3    0.0%    0.0%  JS: *internalNext /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:527:27
+      3    0.0%    0.0%  JS: *header /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:777:29
+      3    0.0%    0.0%  JS: *hasObserver node:internal/perf/observe:570:21
+      3    0.0%    0.0%  JS: *getOrSetCache /Users/markkits/Desktop/practic/backend/dist/cache/cache.js:9:29
+      3    0.0%    0.0%  JS: *get node:net:2443:6
+      3    0.0%    0.0%  JS: *get node:internal/streams/writable:1010:8
+      3    0.0%    0.0%  JS: *get node:internal/bootstrap/node:474:8
+      3    0.0%    0.0%  JS: *get node:internal/bootstrap/node:436:8
+      3    0.0%    0.0%  JS: *get node:internal/bootstrap/node:100:8
+      3    0.0%    0.0%  JS: *get /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/utils/debug.js:75:16
+      3    0.0%    0.0%  JS: *endReadableNT node:internal/streams/readable:1692:23
+      3    0.0%    0.0%  JS: *emitReadable node:internal/streams/readable:819:22
+      3    0.0%    0.0%  JS: *corsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:203:35
+      3    0.0%    0.0%  JS: *addListener node:events:609:58
+      3    0.0%    0.0%  JS: *_flush node:_http_outgoing:1192:51
+      3    0.0%    0.0%  JS: *Readable.removeListener node:internal/streams/readable:1159:45
+      3    0.0%    0.0%  JS: *Readable.push node:internal/streams/readable:387:35
+      3    0.0%    0.0%  JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/utils/Commander.js:74:21
+      3    0.0%    0.0%  Builtin: TypedArrayPrototypeLength
+      3    0.0%    0.0%  Builtin: StringPrototypeToLowerCaseIntl
+      3    0.0%    0.0%  Builtin: StoreICTrampoline_Megamorphic
+      3    0.0%    0.0%  Builtin: ObjectSetPrototypeOf
+      3    0.0%    0.0%  Builtin: ObjectPrototypeToString
+      3    0.0%    0.0%  Builtin: ObjectKeys
+      3    0.0%    0.0%  Builtin: ObjectCreate
+      3    0.0%    0.0%  Builtin: LoadGlobalICBaseline
+      3    0.0%    0.0%  Builtin: GlobalDecodeURIComponent
+      3    0.0%    0.0%  Builtin: FunctionPrototypeApply
+      3    0.0%    0.0%  Builtin: DateConstructor
+      3    0.0%    0.0%  Builtin: Construct_Baseline
+      3    0.0%    0.0%  Builtin: CallWithArrayLike
+      3    0.0%    0.0%  Builtin: CallForwardVarargs
+      3    0.0%    0.0%  Builtin: AsyncFunctionEnter
+      3    0.0%    0.0%  Builtin: AsyncFunctionAwaitResolveClosure
+      3    0.0%    0.0%  Builtin: Add_Baseline
+      3    0.0%    0.0%  Builtin: AdaptorWithBuiltinExitFrame
+      2    0.0%    0.0%  RegExp: ^\/health\/?$
+      2    0.0%    0.0%  RegExp: ^\/?$
+      2    0.0%    0.0%  JS: ~<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      2    0.0%    0.0%  JS: ^writeHead node:_http_server:348:19
+      2    0.0%    0.0%  JS: ^utcDate node:internal/http:17:17
+      2    0.0%    0.0%  JS: ^update node:internal/crypto/hash:107:40
+      2    0.0%    0.0%  JS: ^slice node:buffer:1185:40
+      2    0.0%    0.0%  JS: ^resOnFinish node:_http_server:980:21
+      2    0.0%    0.0%  JS: ^parserOnHeadersComplete node:_http_common:71:33
+      2    0.0%    0.0%  JS: ^parse /Users/markkits/Desktop/practic/backend/node_modules/content-type/index.js:106:16
+      2    0.0%    0.0%  JS: ^onStreamRead node:internal/stream_base_commons:166:22
+      2    0.0%    0.0%  JS: ^onHeaders /Users/markkits/Desktop/practic/backend/node_modules/on-headers/index.js:62:20
+      2    0.0%    0.0%  JS: ^nop node:_http_outgoing:90:13
+      2    0.0%    0.0%  JS: ^merge /Users/markkits/Desktop/practic/backend/node_modules/qs/lib/utils.js:83:27
+      2    0.0%    0.0%  JS: ^matchKnownFields node:_http_incoming:276:26
+      2    0.0%    0.0%  JS: ^listener /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:162:21
+      2    0.0%    0.0%  JS: ^jsonParser /Users/markkits/Desktop/practic/backend/node_modules/body-parser/lib/types/json.js:105:30
+      2    0.0%    0.0%  JS: ^highWaterMarkFrom node:internal/streams/state:15:27
+      2    0.0%    0.0%  JS: ^helmetMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:525:35
+      2    0.0%    0.0%  JS: ^handle /Users/markkits/Desktop/practic/backend/node_modules/express/lib/application.js:165:29
+      2    0.0%    0.0%  JS: ^getSocketAddr /Users/markkits/Desktop/practic/backend/node_modules/forwarded/index.js:46:24
+      2    0.0%    0.0%  JS: ^getResponseHeader /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:397:48
+      2    0.0%    0.0%  JS: ^generateETag /Users/markkits/Desktop/practic/backend/node_modules/express/lib/utils.js:271:32
+      2    0.0%    0.0%  JS: ^fromStringFast node:buffer:447:24
+      2    0.0%    0.0%  JS: ^fromString node:buffer:480:20
+      2    0.0%    0.0%  JS: ^format /Users/markkits/Desktop/practic/backend/node_modules/content-type/index.js:65:17
+      2    0.0%    0.0%  JS: ^detachSocket node:_http_server:299:62
+      2    0.0%    0.0%  JS: ^corsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:203:35
+      2    0.0%    0.0%  JS: ^configSecureContext node:internal/tls/secure-context:129:29
+      2    0.0%    0.0%  JS: ^asCallback /Users/markkits/Desktop/practic/backend/node_modules/standard-as-callback/built/index.js:9:20
+      2    0.0%    0.0%  JS: ^afterWriteTick node:internal/streams/writable:693:24
+      2    0.0%    0.0%  JS: ^afterWriteDispatched node:internal/stream_base_commons:154:30
+      2    0.0%    0.0%  JS: ^_unrefTimer node:net:525:52
+      2    0.0%    0.0%  JS: ^_storeHeader node:_http_outgoing:454:22
+      2    0.0%    0.0%  JS: ^OutgoingMessage.uncork node:_http_outgoing:322:44
+      2    0.0%    0.0%  JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:451:44
+      2    0.0%    0.0%  JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      2    0.0%    0.0%  JS: *writevGeneric node:internal/stream_base_commons:121:23
+      2    0.0%    0.0%  JS: *writeHead node:_http_server:348:19
+      2    0.0%    0.0%  JS: *transformReply /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Command.js:177:19
+      2    0.0%    0.0%  JS: *tokenValue /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:591:38
+      2    0.0%    0.0%  JS: *shouldUseAutoPipelining /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/autoPipelining.js:75:33
+      2    0.0%    0.0%  JS: *set node:_http_outgoing:250:16
+      2    0.0%    0.0%  JS: *remove node:internal/linkedlist:16:16
+      2    0.0%    0.0%  JS: *query /Users/markkits/Desktop/practic/backend/node_modules/express/lib/middleware/query.js:39:24
+      2    0.0%    0.0%  JS: *parseurl /Users/markkits/Desktop/practic/backend/node_modules/parseurl/index.js:35:19
+      2    0.0%    0.0%  JS: *parseQueryStringValues /Users/markkits/Desktop/practic/backend/node_modules/qs/lib/parse.js:72:50
+      2    0.0%    0.0%  JS: *parseLength /Users/markkits/Desktop/practic/backend/node_modules/redis-parser/lib/parser.js:108:22
+      2    0.0%    0.0%  JS: *parseExtendedQueryString /Users/markkits/Desktop/practic/backend/node_modules/express/lib/utils.js:288:34
+      2    0.0%    0.0%  JS: *onParserExecuteCommon node:_http_server:918:31
+      2    0.0%    0.0%  JS: *onFinish /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:96:21
+      2    0.0%    0.0%  JS: *maybeReadMore node:internal/streams/readable:857:23
+      2    0.0%    0.0%  JS: *helmetMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:525:35
+      2    0.0%    0.0%  JS: *hasbody /Users/markkits/Desktop/practic/backend/node_modules/type-is/index.js:92:18
+      2    0.0%    0.0%  JS: *hasHooks node:internal/async_hooks:470:18
+      2    0.0%    0.0%  JS: *getHeader node:_http_outgoing:784:57
+      2    0.0%    0.0%  JS: *get node:internal/streams/writable:131:8
+      2    0.0%    0.0%  JS: *get node:_http_outgoing:247:16
+      2    0.0%    0.0%  JS: *fastparse /Users/markkits/Desktop/practic/backend/node_modules/parseurl/index.js:95:20
+      2    0.0%    0.0%  JS: *expressInit /Users/markkits/Desktop/practic/backend/node_modules/express/lib/middleware/init.js:29:30
+      2    0.0%    0.0%  JS: *clearBuffer node:internal/streams/writable:744:21
+      2    0.0%    0.0%  JS: *callback node:internal/streams/writable:764:63
+      2    0.0%    0.0%  JS: *afterWriteTick node:internal/streams/writable:693:24
+      2    0.0%    0.0%  JS: *_dump node:_http_incoming:429:49
+      2    0.0%    0.0%  JS: *_destroy node:_http_incoming:218:55
+      2    0.0%    0.0%  JS: *_clearTimers /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Command.js:263:17
+      2    0.0%    0.0%  JS: *Writable.cork node:internal/streams/writable:513:35
+      2    0.0%    0.0%  JS: *Readable.resume node:internal/streams/readable:1227:37
+      2    0.0%    0.0%  JS: *IncomingMessage node:_http_incoming:50:25
+      2    0.0%    0.0%  JS: *FastBuffer node:internal/buffer:960:14
+      2    0.0%    0.0%  JS: *<anonymous> node:internal/validators:161:40
+      2    0.0%    0.0%  JS: *<anonymous> node:internal/fs/utils:736:40
+      2    0.0%    0.0%  JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/request.js:467:36
+      2    0.0%    0.0%  JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      2    0.0%    0.0%  Builtin: WasmCEntry
+      2    0.0%    0.0%  Builtin: ToBoolean
+      2    0.0%    0.0%  Builtin: StringSubstring
+      2    0.0%    0.0%  Builtin: StringPrototypeSubstring
+      2    0.0%    0.0%  Builtin: StrictEqual
+      2    0.0%    0.0%  Builtin: StoreInArrayLiteralICBaseline
+      2    0.0%    0.0%  Builtin: StoreICTrampoline
+      2    0.0%    0.0%  Builtin: RunMicrotasks
+      2    0.0%    0.0%  Builtin: RegExpPrototypeExec
+      2    0.0%    0.0%  Builtin: PromisePrototypeThen
+      2    0.0%    0.0%  Builtin: ParseInt
+      2    0.0%    0.0%  Builtin: NumberToString
+      2    0.0%    0.0%  Builtin: NewRestArgumentsElements
+      2    0.0%    0.0%  Builtin: MathTrunc
+      2    0.0%    0.0%  Builtin: MapPrototypeForEach
+      2    0.0%    0.0%  Builtin: LoadJoinElement_FastSmiOrObjectElements_0
+      2    0.0%    0.0%  Builtin: LoadIC_NoFeedback
+      2    0.0%    0.0%  Builtin: KeyedStoreICTrampoline_Megamorphic
+      2    0.0%    0.0%  Builtin: KeyedLoadICBaseline
+      2    0.0%    0.0%  Builtin: KeyedHasIC
+      2    0.0%    0.0%  Builtin: JSBuiltinsConstructStub
+      2    0.0%    0.0%  Builtin: InstanceOf_Baseline
+      2    0.0%    0.0%  Builtin: FunctionPrototypeCall
+      2    0.0%    0.0%  Builtin: ForInFilter
+      2    0.0%    0.0%  Builtin: FlattenIntoArrayWithoutMapFn
+      2    0.0%    0.0%  Builtin: FastNewSloppyArguments
+      2    0.0%    0.0%  Builtin: FastNewRestArguments
+      2    0.0%    0.0%  Builtin: FastFunctionPrototypeBind
+      2    0.0%    0.0%  Builtin: Construct
+      2    0.0%    0.0%  Builtin: CallFunctionTemplate_Generic
+      2    0.0%    0.0%  Builtin: BooleanConstructor
+      2    0.0%    0.0%  Builtin: BitwiseOrSmi_Baseline
+      2    0.0%    0.0%  Builtin: AsyncFunctionAwaitUncaught
+      2    0.0%    0.0%  Builtin: ArraySingleArgumentConstructor_HoleySmi_DontOverride
+      2    0.0%    0.0%  Builtin: ArrayPrototypeSort
+      2    0.0%    0.0%  Builtin: ArrayPrototypeShift
+      2    0.0%    0.0%  Builtin: ArrayConstructor
+      1    0.0%    0.0%  RegExp: %5D
+      1    0.0%    0.0%  JS: ~writeHead /Users/markkits/Desktop/practic/backend/node_modules/on-headers/index.js:34:29
+      1    0.0%    0.0%  JS: ~Socket._destroy node:net:813:37
+      1    0.0%    0.0%  JS: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    0.0%    0.0%  JS: ~<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:280:64
+      1    0.0%    0.0%  JS: ^xFrameOptionsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:283:41
+      1    0.0%    0.0%  JS: ^xDownloadOptionsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:263:44
+      1    0.0%    0.0%  JS: ^xDnsPrefetchControlMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:256:47
+      1    0.0%    0.0%  JS: ^writeOrBuffer node:internal/streams/writable:548:23
+      1    0.0%    0.0%  JS: ^wrap /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:219:15
+      1    0.0%    0.0%  JS: ^subarray node:buffer:1177:46
+      1    0.0%    0.0%  JS: ^stringifyArguments /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Command.js:159:23
+      1    0.0%    0.0%  JS: ^strictContentLength node:_http_outgoing:931:29
+      1    0.0%    0.0%  JS: ^shouldUseAutoPipelining /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/autoPipelining.js:75:33
+      1    0.0%    0.0%  JS: ^shouldTrace /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/tracing.js:67:21
+      1    0.0%    0.0%  JS: ^shift node:internal/fixed_queue:81:8
+      1    0.0%    0.0%  JS: ^shift /Users/markkits/Desktop/practic/backend/node_modules/denque/index.js:122:40
+      1    0.0%    0.0%  JS: ^sendCommand /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:338:16
+      1    0.0%    0.0%  JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      1    0.0%    0.0%  JS: ^runInAsyncScope node:async_hooks:204:18
+      1    0.0%    0.0%  JS: ^resetSocketTimeout node:_http_server:1159:28
+      1    0.0%    0.0%  JS: ^removeHeader node:_http_outgoing:844:63
+      1    0.0%    0.0%  JS: ^removeAt node:internal/priority_queue:89:11
+      1    0.0%    0.0%  JS: ^remoteAddress node:net:898:52
+      1    0.0%    0.0%  JS: ^refresh node:internal/timers:218:10
+      1    0.0%    0.0%  JS: ^referrerPolicyMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:209:42
+      1    0.0%    0.0%  JS: ^readableAddChunkPushByteMode node:internal/streams/readable:463:38
+      1    0.0%    0.0%  JS: ^process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      1    0.0%    0.0%  JS: ^peek node:internal/priority_queue:37:7
+      1    0.0%    0.0%  JS: ^parseType /Users/markkits/Desktop/practic/backend/node_modules/redis-parser/lib/parser.js:291:20
+      1    0.0%    0.0%  JS: ^parseExtendedQueryString /Users/markkits/Desktop/practic/backend/node_modules/express/lib/utils.js:288:34
+      1    0.0%    0.0%  JS: ^parseBulkString /Users/markkits/Desktop/practic/backend/node_modules/redis-parser/lib/parser.js:145:26
+      1    0.0%    0.0%  JS: ^parseArrayValue /Users/markkits/Desktop/practic/backend/node_modules/qs/lib/parse.js:39:32
+      1    0.0%    0.0%  JS: ^onconnection node:net:2232:22
+      1    0.0%    0.0%  JS: ^onParserExecute node:_http_server:845:25
+      1    0.0%    0.0%  JS: ^onFinish node:_http_outgoing:1079:18
+      1    0.0%    0.0%  JS: ^onFinish /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:96:21
+      1    0.0%    0.0%  JS: ^next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1    0.0%    0.0%  JS: ^maybeReadMore_ node:internal/streams/readable:864:24
+      1    0.0%    0.0%  JS: ^listOnTimeout node:internal/timers:534:25
+      1    0.0%    0.0%  JS: ^isstats /Users/markkits/Desktop/practic/backend/node_modules/etag/index.js:104:18
+      1    0.0%    0.0%  JS: ^isUint8Array node:internal/util/types:13:22
+      1    0.0%    0.0%  JS: ^isFinished /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:66:21
+      1    0.0%    0.0%  JS: ^isEmpty node:internal/fixed_queue:96:10
+      1    0.0%    0.0%  JS: ^initPromise /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Command.js:275:16
+      1    0.0%    0.0%  JS: ^hrtime node:internal/process/per_thread:72:16
+      1    0.0%    0.0%  JS: ^header /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:777:29
+      1    0.0%    0.0%  JS: ^hasbody /Users/markkits/Desktop/practic/backend/node_modules/type-is/index.js:92:18
+      1    0.0%    0.0%  JS: ^hasObserver node:internal/perf/observe:570:21
+      1    0.0%    0.0%  JS: ^handleSubscriberReply /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:77:26
+      1    0.0%    0.0%  JS: ^getip /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:532:16
+      1    0.0%    0.0%  JS: ^getObserverType node:internal/perf/observe:134:25
+      1    0.0%    0.0%  JS: ^getMethodToken /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:259:48
+      1    0.0%    0.0%  JS: ^getBlockingTimeoutInMs /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:453:27
+      1    0.0%    0.0%  JS: ^get node:internal/streams/writable:131:8
+      1    0.0%    0.0%  JS: ^get node:internal/streams/writable:1010:8
+      1    0.0%    0.0%  JS: ^get node:internal/streams/readable:1455:18
+      1    0.0%    0.0%  JS: ^get node:internal/streams/readable:1415:8
+      1    0.0%    0.0%  JS: ^get node:internal/bootstrap/node:436:8
+      1    0.0%    0.0%  JS: ^get node:_http_outgoing:195:6
+      1    0.0%    0.0%  JS: ^fromList node:internal/streams/readable:1582:18
+      1    0.0%    0.0%  JS: ^enabled /Users/markkits/Desktop/practic/backend/node_modules/express/lib/application.js:438:31
+      1    0.0%    0.0%  JS: ^dispatch /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/route.js:101:45
+      1    0.0%    0.0%  JS: ^digest node:internal/crypto/hash:125:40
+      1    0.0%    0.0%  JS: ^crossOriginOpenerPolicyMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:161:51
+      1    0.0%    0.0%  JS: ^createWriteWrap node:internal/stream_base_commons:108:25
+      1    0.0%    0.0%  JS: ^createUnsafeBuffer node:internal/buffer:1094:28
+      1    0.0%    0.0%  JS: ^contentSecurityPolicyMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:122:49
+      1    0.0%    0.0%  JS: ^configureExposedHeaders /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:117:35
+      1    0.0%    0.0%  JS: ^compareTimersLists node:internal/timers:422:28
+      1    0.0%    0.0%  JS: ^clearIncoming node:_http_server:967:23
+      1    0.0%    0.0%  JS: ^canBeRequiredWithoutScheme node:internal/bootstrap/realm:298:36
+      1    0.0%    0.0%  JS: ^callback /Users/markkits/Desktop/practic/backend/node_modules/ee-first/index.js:53:20
+      1    0.0%    0.0%  JS: ^byteLength node:buffer:771:20
+      1    0.0%    0.0%  JS: ^append node:internal/linkedlist:30:16
+      1    0.0%    0.0%  JS: ^allocUnsafeSlow node:buffer:417:50
+      1    0.0%    0.0%  JS: ^alladdrs /Users/markkits/Desktop/practic/backend/node_modules/proxy-addr/index.js:55:19
+      1    0.0%    0.0%  JS: ^_send node:_http_outgoing:398:49
+      1    0.0%    0.0%  JS: ^_handles_method /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/route.js:58:59
+      1    0.0%    0.0%  JS: ^_convertValue /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Command.js:320:18
+      1    0.0%    0.0%  JS: ^_addHeaderLine node:_http_incoming:382:24
+      1    0.0%    0.0%  JS: ^Writable.uncork node:internal/streams/writable:520:37
+      1    0.0%    0.0%  JS: ^Socket.read node:net:785:33
+      1    0.0%    0.0%  JS: ^Socket._getpeername node:net:873:41
+      1    0.0%    0.0%  JS: ^SafeMap node:internal/per_context/primordials:409:16
+      1    0.0%    0.0%  JS: ^Readable.removeAllListeners node:internal/streams/readable:1181:49
+      1    0.0%    0.0%  JS: ^Readable.push node:internal/streams/readable:387:35
+      1    0.0%    0.0%  JS: ^Command /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Command.js:37:16
+      1    0.0%    0.0%  JS: ^<anonymous> node:internal/validators:94:3
+      1    0.0%    0.0%  JS: ^<anonymous> node:internal/validators:115:3
+      1    0.0%    0.0%  JS: ^<anonymous> node:internal/per_context/primordials:383:32
+      1    0.0%    0.0%  JS: ^<anonymous> node:internal/per_context/primordials:334:21
+      1    0.0%    0.0%  JS: ^<anonymous> node:internal/fs/utils:736:40
+      1    0.0%    0.0%  JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/utils/Commander.js:74:21
+      1    0.0%    0.0%  JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:25:46
+      1    0.0%    0.0%  JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:280:64
+      1    0.0%    0.0%  JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:204:37
+      1    0.0%    0.0%  JS: *writeGeneric node:internal/stream_base_commons:146:22
+      1    0.0%    0.0%  JS: *write node:buffer:635:12
+      1    0.0%    0.0%  JS: *toString node:buffer:835:46
+      1    0.0%    0.0%  JS: *stringifyArguments /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Command.js:159:23
+      1    0.0%    0.0%  JS: *strictTransportSecurityMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:241:51
+      1    0.0%    0.0%  JS: *splitKeyIntoSegments /Users/markkits/Desktop/practic/backend/node_modules/qs/lib/parse.js:229:57
+      1    0.0%    0.0%  JS: *setWriteHeadHeaders /Users/markkits/Desktop/practic/backend/node_modules/on-headers/index.js:119:30
+      1    0.0%    0.0%  JS: *set node:internal/streams/readable:133:8
+      1    0.0%    0.0%  JS: *set node:internal/async_context_frame:60:13
+      1    0.0%    0.0%  JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      1    0.0%    0.0%  JS: *router /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:46:18
+      1    0.0%    0.0%  JS: *restore /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:631:17
+      1    0.0%    0.0%  JS: *resetSocketTimeout node:_http_server:1159:28
+      1    0.0%    0.0%  JS: *res.get /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:811:19
+      1    0.0%    0.0%  JS: *referrerPolicyMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:209:42
+      1    0.0%    0.0%  JS: *processHeader node:_http_outgoing:590:23
+      1    0.0%    0.0%  JS: *originAgentClusterMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:184:46
+      1    0.0%    0.0%  JS: *onFinished /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:46:21
+      1    0.0%    0.0%  JS: *onFinish node:_http_outgoing:1079:18
+      1    0.0%    0.0%  JS: *newAsyncId node:internal/async_hooks:417:20
+      1    0.0%    0.0%  JS: *module.exports /Users/markkits/Desktop/practic/backend/node_modules/qs/lib/parse.js:389:27
+      1    0.0%    0.0%  JS: *listenerCount node:events:850:23
+      1    0.0%    0.0%  JS: *listener /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:162:21
+      1    0.0%    0.0%  JS: *isUint8Array node:internal/util/types:13:22
+      1    0.0%    0.0%  JS: *insert node:internal/timers:371:16
+      1    0.0%    0.0%  JS: *headersSent /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:547:22
+      1    0.0%    0.0%  JS: *handleWriteReq node:internal/stream_base_commons:46:24
+      1    0.0%    0.0%  JS: *handle /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/layer.js:86:49
+      1    0.0%    0.0%  JS: *getHashCache node:internal/crypto/util:102:22
+      1    0.0%    0.0%  JS: *getEncodingOps node:buffer:721:24
+      1    0.0%    0.0%  JS: *getDefaultTriggerAsyncId node:internal/async_hooks:433:34
+      1    0.0%    0.0%  JS: *getCachedHashId node:internal/crypto/util:113:25
+      1    0.0%    0.0%  JS: *get node:net:709:16
+      1    0.0%    0.0%  JS: *get node:internal/streams/readable:1542:8
+      1    0.0%    0.0%  JS: *get node:internal/streams/readable:1455:18
+      1    0.0%    0.0%  JS: *get node:internal/streams/readable:132:8
+      1    0.0%    0.0%  JS: *get /Users/markkits/Desktop/practic/backend/node_modules/ioredis/node_modules/debug/src/common.js:125:9
+      1    0.0%    0.0%  JS: *format /Users/markkits/Desktop/practic/backend/node_modules/content-type/index.js:65:17
+      1    0.0%    0.0%  JS: *flow node:internal/streams/readable:1280:14
+      1    0.0%    0.0%  JS: *etag /Users/markkits/Desktop/practic/backend/node_modules/etag/index.js:70:15
+      1    0.0%    0.0%  JS: *entitytag /Users/markkits/Desktop/practic/backend/node_modules/etag/index.js:39:20
+      1    0.0%    0.0%  JS: *endReadable node:internal/streams/readable:1682:21
+      1    0.0%    0.0%  JS: *enabled /Users/markkits/Desktop/practic/backend/node_modules/express/lib/application.js:438:31
+      1    0.0%    0.0%  JS: *emitCloseNT node:internal/streams/destroy:133:21
+      1    0.0%    0.0%  JS: *emitCloseNT node:_http_server:1029:21
+      1    0.0%    0.0%  JS: *emitAfterScript node:internal/async_hooks:517:25
+      1    0.0%    0.0%  JS: *detachSocket node:_http_server:299:62
+      1    0.0%    0.0%  JS: *destroy node:internal/streams/destroy:49:17
+      1    0.0%    0.0%  JS: *crossOriginOpenerPolicyMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:161:51
+      1    0.0%    0.0%  JS: *clearIncoming node:_http_server:967:23
+      1    0.0%    0.0%  JS: *checkFlag /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Command.js:76:21
+      1    0.0%    0.0%  JS: *checkError node:internal/streams/destroy:33:20
+      1    0.0%    0.0%  JS: *byteLength node:buffer:771:20
+      1    0.0%    0.0%  JS: *append node:internal/linkedlist:30:16
+      1    0.0%    0.0%  JS: *addChunk node:internal/streams/readable:550:18
+      1    0.0%    0.0%  JS: *_convertValue /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Command.js:320:18
+      1    0.0%    0.0%  JS: *Writable.uncork node:internal/streams/writable:520:37
+      1    0.0%    0.0%  JS: *Timeout node:internal/timers:175:14
+      1    0.0%    0.0%  JS: *Readable node:internal/streams/readable:320:18
+      1    0.0%    0.0%  JS: *<anonymous> node:internal/validators:94:3
+      1    0.0%    0.0%  JS: *<anonymous> node:internal/fs/utils:691:3
+      1    0.0%    0.0%  JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:280:64
+      1    0.0%    0.0%  Builtin: WeakSetPrototypeHas
+      1    0.0%    0.0%  Builtin: WasmAllocateInYoungGeneration
+      1    0.0%    0.0%  Builtin: TypedArrayPrototypeToStringTag
+      1    0.0%    0.0%  Builtin: TypedArrayPrototypeByteLength
+      1    0.0%    0.0%  Builtin: ToNumeric_Baseline
+      1    0.0%    0.0%  Builtin: SuspendGeneratorBaseline
+      1    0.0%    0.0%  Builtin: Subtract_Baseline
+      1    0.0%    0.0%  Builtin: StringPrototypeToUpperCaseIntl
+      1    0.0%    0.0%  Builtin: StringPrototypeIndexOf
+      1    0.0%    0.0%  Builtin: StringPrototypeCharCodeAt
+      1    0.0%    0.0%  Builtin: StringAddConvertRight
+      1    0.0%    0.0%  Builtin: StoreInArrayLiteralIC
+      1    0.0%    0.0%  Builtin: StoreFastElementIC_NoTransitionGrowAndHandleCOW
+      1    0.0%    0.0%  Builtin: ResumeGeneratorTrampoline
+      1    0.0%    0.0%  Builtin: ResumeGeneratorBaseline
+      1    0.0%    0.0%  Builtin: RegExpPrototypeTest
+      1    0.0%    0.0%  Builtin: ReflectApply
+      1    0.0%    0.0%  Builtin: PromiseResolveTrampoline
+      1    0.0%    0.0%  Builtin: PromiseCapabilityDefaultResolve
+      1    0.0%    0.0%  Builtin: ObjectToString
+      1    0.0%    0.0%  Builtin: ObjectGetPrototypeOf
+      1    0.0%    0.0%  Builtin: NumberPrototypeToString
+      1    0.0%    0.0%  Builtin: NumberParseInt
+      1    0.0%    0.0%  Builtin: NumberIsSafeInteger
+      1    0.0%    0.0%  Builtin: NumberIsInteger
+      1    0.0%    0.0%  Builtin: NonNumberToNumber
+      1    0.0%    0.0%  Builtin: MultiplySmi_Baseline
+      1    0.0%    0.0%  Builtin: MathMin
+      1    0.0%    0.0%  Builtin: MapIteratorPrototypeNext
+      1    0.0%    0.0%  Builtin: LoadIC_StringLength
+      1    0.0%    0.0%  Builtin: LoadIC_Noninlined
+      1    0.0%    0.0%  Builtin: LessThanOrEqual_Baseline
+      1    0.0%    0.0%  Builtin: LessThanOrEqual
+      1    0.0%    0.0%  Builtin: KeyedStoreICBaseline
+      1    0.0%    0.0%  Builtin: JsonParse
+      1    0.0%    0.0%  Builtin: InterpreterPushUndefinedAndArgsThenCall
+      1    0.0%    0.0%  Builtin: InterpreterEntryTrampoline
+      1    0.0%    0.0%  Builtin: Increment_Baseline
+      1    0.0%    0.0%  Builtin: GreaterThan_Baseline
+      1    0.0%    0.0%  Builtin: GreaterThanOrEqual_Baseline
+      1    0.0%    0.0%  Builtin: GreaterThanOrEqual
+      1    0.0%    0.0%  Builtin: FindNonDefaultConstructorOrConstruct
+      1    0.0%    0.0%  Builtin: FastNewStrictArguments
+      1    0.0%    0.0%  Builtin: DivideSmi_Baseline
+      1    0.0%    0.0%  Builtin: DefineNamedOwnICBaseline
+      1    0.0%    0.0%  Builtin: CreateEmptyLiteralObject
+      1    0.0%    0.0%  Builtin: CreateEmptyArrayLiteral
+      1    0.0%    0.0%  Builtin: CloneObjectIC
+      1    0.0%    0.0%  Builtin: CloneFastJSArray
+      1    0.0%    0.0%  Builtin: CallApiGetter
+      1    0.0%    0.0%  Builtin: CallApiCallbackGeneric
+      1    0.0%    0.0%  Builtin: CEntry_Return1_ArgvOnStack_BuiltinExit
+      1    0.0%    0.0%  Builtin: BitwiseNot_Baseline
+      1    0.0%    0.0%  Builtin: AsyncFunctionResolve
+      1    0.0%    0.0%  Builtin: ArraySingleArgumentConstructor_Holey_DisableAllocationSites
+      1    0.0%    0.0%  Builtin: ArraySingleArgumentConstructor_HoleySmi_DisableAllocationSites
+      1    0.0%    0.0%  Builtin: ArrayPrototypeUnshift
+      1    0.0%    0.0%  Builtin: ArrayPrototypeConcat
+      1    0.0%    0.0%  Builtin: ArrayIteratorPrototypeNext
+      1    0.0%    0.0%  Builtin: ArrayIsArray
+      1    0.0%    0.0%  Builtin: ArrayConcat
+      1    0.0%    0.0%  Builtin: ArrayBufferConstructor
+
+ [C++]:
+   ticks  total  nonlib   name
+
+ [Summary]:
+   ticks  total  nonlib   name
+   2475   23.7%   23.7%  JavaScript
+      0    0.0%    0.0%  C++
+    237    2.3%    2.3%  GC
+      0    0.0%          Shared libraries
+   7989   76.3%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+   7989   76.3%  UNKNOWN
+    300    3.8%    JS: *writeOrBuffer node:internal/streams/writable:548:23
+    300  100.0%      JS: *Writable.write node:internal/streams/writable:504:36
+    194   64.7%        JS: ^logRequest /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:145:25
+    134   69.1%          JS: *runInAsyncScope node:async_hooks:204:18
+     83   61.9%            JS: ^listener /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:162:21
+     51   38.1%            JS: *listener /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:162:21
+     60   30.9%          JS: ^runInAsyncScope node:async_hooks:204:18
+     32   53.3%            JS: *listener /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:162:21
+     28   46.7%            JS: ^listener /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:162:21
+    106   35.3%        JS: *logRequest /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:145:25
+    106  100.0%          JS: *runInAsyncScope node:async_hooks:204:18
+    106  100.0%            JS: *onFinish /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:96:21
+    268    3.4%    JS: *slice node:buffer:636:12
+    143   53.4%      JS: *transformReply /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Command.js:177:19
+    143  100.0%        JS: *returnReply /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:20:26
+    100   69.9%          JS: *execute /Users/markkits/Desktop/practic/backend/node_modules/redis-parser/lib/parser.js:491:11
+     59   59.0%            JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:25:46
+     41   41.0%            JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:25:46
+     43   30.1%          JS: ^execute /Users/markkits/Desktop/practic/backend/node_modules/redis-parser/lib/parser.js:491:11
+     43  100.0%            JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:25:46
+    124   46.3%      JS: *toString node:buffer:835:46
+    124  100.0%        JS: ^convertBufferToString /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/utils/index.js:23:31
+     88   71.0%          JS: ^transformReply /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Command.js:177:19
+     88  100.0%            JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Command.js:321:16
+     36   29.0%          JS: *returnReply /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:20:26
+     36  100.0%            JS: *execute /Users/markkits/Desktop/practic/backend/node_modules/redis-parser/lib/parser.js:491:11
+    227    2.8%    JS: *logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+    149   65.6%      JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+    149  100.0%        JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+    149  100.0%          JS: *cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+    149  100.0%            JS: *corsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:203:35
+     61   26.9%      JS: *process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+     60   98.4%        JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+     41   68.3%          JS: *cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+     41  100.0%            JS: *corsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:203:35
+     19   31.7%          JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:204:37
+     19  100.0%            JS: ^optionsCallback /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:198:34
+      1    1.6%        JS: ^next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1  100.0%          JS: *cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+      1  100.0%            JS: *corsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:203:35
+     10    4.4%      JS: *handle /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/layer.js:86:49
+     10  100.0%        JS: ^trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      8   80.0%          JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:280:64
+      8  100.0%            JS: ^process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      2   20.0%          JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      2  100.0%            JS: *cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+      7    3.1%      JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:280:64
+      7  100.0%        JS: ^process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      7  100.0%          JS: ^next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      7  100.0%            JS: *cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+    186    2.3%    JS: *Socket._writeGeneric node:net:940:42
+    179   96.2%      JS: *clearBuffer node:internal/streams/writable:744:21
+     93   52.0%        JS: *end node:_http_outgoing:1084:45
+     83   89.2%          JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+     83  100.0%            JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+     10   10.8%          JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+     10  100.0%            JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+     86   48.0%        JS: *Writable.uncork node:internal/streams/writable:520:37
+     86  100.0%          JS: ^end node:_http_outgoing:1084:45
+     61   70.9%            JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+     25   29.1%            JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      6    3.2%      JS: *writeOrBuffer node:internal/streams/writable:548:23
+      6  100.0%        JS: *Writable.write node:internal/streams/writable:504:36
+      5   83.3%          JS: *sendCommand /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:338:16
+      3   60.0%            JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/utils/Commander.js:74:21
+      1   20.0%            JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/utils/Commander.js:74:21
+      1   20.0%            JS: *getOrSetCache /Users/markkits/Desktop/practic/backend/dist/cache/cache.js:9:29
+      1   16.7%          JS: ^sendCommand /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:338:16
+      1  100.0%            JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/utils/Commander.js:74:21
+    156    2.0%    JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+     55   35.3%      JS: ~<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+     55  100.0%        Builtin: AsyncFunctionAwaitResolveClosure
+     55  100.0%          Builtin: CallApiCallbackOptimizedNoProfiling
+     55  100.0%            JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+     51   32.7%      JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+     51  100.0%        Builtin: AsyncFunctionAwaitResolveClosure
+     51  100.0%          Builtin: CallApiCallbackOptimizedNoProfiling
+     51  100.0%            JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+     42   26.9%      JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+     42  100.0%        Builtin: AsyncFunctionAwaitResolveClosure
+     42  100.0%          Builtin: CallApiCallbackOptimizedNoProfiling
+     42  100.0%            JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      8    5.1%      JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      8  100.0%        Builtin: AsyncFunctionAwaitResolveClosure
+      8  100.0%          Builtin: CallApiCallbackOptimizedNoProfiling
+      8  100.0%            JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+    127    1.6%    JS: *writevGeneric node:internal/stream_base_commons:121:23
+     72   56.7%      JS: ^Socket._writeGeneric node:net:940:42
+     55   76.4%        JS: *clearBuffer node:internal/streams/writable:744:21
+     55  100.0%          JS: *end node:_http_outgoing:1084:45
+     33   60.0%            JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+     22   40.0%            JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+     17   23.6%        JS: ^Socket._writev node:net:977:36
+     17  100.0%          JS: ^doWrite node:internal/streams/writable:587:17
+     17  100.0%            JS: ^clearBuffer node:internal/streams/writable:744:21
+     55   43.3%      JS: *clearBuffer node:internal/streams/writable:744:21
+     55  100.0%        JS: *end node:_http_outgoing:1084:45
+     52   94.5%          JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+     52  100.0%            JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      3    5.5%          JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      3  100.0%            JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+    125    1.6%    JS: ^getOrSetCache /Users/markkits/Desktop/practic/backend/dist/cache/cache.js:9:29
+    125  100.0%      Builtin: AsyncFunctionAwaitResolveClosure
+    122   97.6%        Builtin: CallApiCallbackOptimizedNoProfiling
+    122  100.0%          JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      3    2.4%        Builtin: CallApiCallbackGeneric
+      3  100.0%          JS: ^processTicksAndRejections node:internal/process/task_queues:72:35
+    120    1.5%    JS: ^handleWriteReq node:internal/stream_base_commons:46:24
+     67   55.8%      JS: *Socket._writeGeneric node:net:940:42
+     54   80.6%        JS: *writeOrBuffer node:internal/streams/writable:548:23
+     54  100.0%          JS: *Writable.write node:internal/streams/writable:504:36
+     41   75.9%            JS: *sendCommand /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:338:16
+     13   24.1%            JS: ^sendCommand /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:338:16
+     13   19.4%        JS: ^Socket._write node:net:982:35
+     13  100.0%          JS: ^writeOrBuffer node:internal/streams/writable:548:23
+     13  100.0%            JS: *Writable.write node:internal/streams/writable:504:36
+     53   44.2%      JS: ^writeGeneric node:internal/stream_base_commons:146:22
+     27   50.9%        JS: *writeOrBuffer node:internal/streams/writable:548:23
+     27  100.0%          JS: *Writable.write node:internal/streams/writable:504:36
+     27  100.0%            JS: ^sendCommand /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:338:16
+     26   49.1%        JS: ^Socket._writeGeneric node:net:940:42
+     26  100.0%          JS: ^Socket._write node:net:982:35
+     26  100.0%            JS: ^writeOrBuffer node:internal/streams/writable:548:23
+    112    1.4%    JS: *handleWriteReq node:internal/stream_base_commons:46:24
+     52   46.4%      JS: *writeOrBuffer node:internal/streams/writable:548:23
+     52  100.0%        JS: *Writable.write node:internal/streams/writable:504:36
+     39   75.0%          JS: *sendCommand /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:338:16
+     25   64.1%            JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/utils/Commander.js:74:21
+     14   35.9%            JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/utils/Commander.js:74:21
+     13   25.0%          JS: ^sendCommand /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:338:16
+     13  100.0%            JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/utils/Commander.js:74:21
+     32   28.6%      JS: ^writeGeneric node:internal/stream_base_commons:146:22
+     32  100.0%        JS: ^Socket._writeGeneric node:net:940:42
+     27   84.4%          JS: *writeOrBuffer node:internal/streams/writable:548:23
+     27  100.0%            JS: *Writable.write node:internal/streams/writable:504:36
+      5   15.6%          JS: ^Socket._write node:net:982:35
+      5  100.0%            JS: ^writeOrBuffer node:internal/streams/writable:548:23
+     28   25.0%      JS: *Socket._writeGeneric node:net:940:42
+     28  100.0%        JS: *writeOrBuffer node:internal/streams/writable:548:23
+     28  100.0%          JS: *Writable.write node:internal/streams/writable:504:36
+     28  100.0%            JS: *sendCommand /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:338:16
+     85    1.1%    JS: *writeGeneric node:internal/stream_base_commons:146:22
+     50   58.8%      JS: *Socket._writeGeneric node:net:940:42
+     50  100.0%        JS: *writeOrBuffer node:internal/streams/writable:548:23
+     50  100.0%          JS: *Writable.write node:internal/streams/writable:504:36
+     49   98.0%            JS: *sendCommand /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:338:16
+      1    2.0%            JS: ^end /Users/markkits/Desktop/practic/backend/node_modules/pg/lib/connection.js:210:6
+     35   41.2%      JS: ^Socket._writeGeneric node:net:940:42
+     35  100.0%        JS: *writeOrBuffer node:internal/streams/writable:548:23
+     35  100.0%          JS: *Writable.write node:internal/streams/writable:504:36
+     35  100.0%            JS: *sendCommand /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:338:16
+
+    181    1.7%  Builtin: LoadIC
+     10    5.5%    JS: *Readable.read node:internal/streams/readable:647:35
+      5   50.0%      JS: *Socket.read node:net:785:33
+      5  100.0%        JS: *emitReadable_ node:internal/streams/readable:830:23
+      5  100.0%          JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      4   40.0%      JS: ^Socket.read node:net:785:33
+      3   75.0%        JS: *emitReadable_ node:internal/streams/readable:830:23
+      3  100.0%          JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      1   25.0%        JS: *flow node:internal/streams/readable:1280:14
+      1  100.0%          JS: ^emitReadable_ node:internal/streams/readable:830:23
+      1  100.0%            JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      1   10.0%      JS: *resume_ node:internal/streams/readable:1254:17
+      1  100.0%        JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      7    3.9%    JS: ^Socket._writeGeneric node:net:940:42
+      3   42.9%      JS: ^Socket._writev node:net:977:36
+      3  100.0%        JS: ^doWrite node:internal/streams/writable:587:17
+      3  100.0%          JS: ^clearBuffer node:internal/streams/writable:744:21
+      2   66.7%            JS: *end node:_http_outgoing:1084:45
+      1   33.3%            JS: *Writable.uncork node:internal/streams/writable:520:37
+      3   42.9%      JS: *clearBuffer node:internal/streams/writable:744:21
+      3  100.0%        JS: *end node:_http_outgoing:1084:45
+      3  100.0%          JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      3  100.0%            JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      1   14.3%      JS: *writeOrBuffer node:internal/streams/writable:548:23
+      1  100.0%        JS: *Writable.write node:internal/streams/writable:504:36
+      1  100.0%          JS: *sendCommand /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:338:16
+      1  100.0%            JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/utils/Commander.js:74:21
+      6    3.3%    JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      4   66.7%      JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      3   75.0%        JS: ~<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      3  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+      3  100.0%            Builtin: CallApiCallbackOptimizedNoProfiling
+      1   25.0%        JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      1  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+      1  100.0%            Builtin: CallApiCallbackOptimizedNoProfiling
+      2   33.3%      JS: ^json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      2  100.0%        JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      2  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+      2  100.0%            Builtin: CallApiCallbackOptimizedNoProfiling
+      6    3.3%    JS: ^jsonParser /Users/markkits/Desktop/practic/backend/node_modules/body-parser/lib/types/json.js:105:30
+      3   50.0%      JS: *process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      3  100.0%        JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      3  100.0%          JS: *logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      3  100.0%            JS: *process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      1   16.7%      JS: ^handle /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%        JS: ^trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      1  100.0%          JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:280:64
+      1  100.0%            JS: ^process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      1   16.7%      JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      1  100.0%        JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1  100.0%          JS: ^logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      1  100.0%            JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      1   16.7%      JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:280:64
+      1  100.0%        JS: ^process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      1  100.0%          JS: ^next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1  100.0%            JS: *logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      4    2.2%    JS: ^sendCommand /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:338:16
+      4  100.0%      JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/utils/Commander.js:74:21
+      4  100.0%        JS: ^getOrSetCache /Users/markkits/Desktop/practic/backend/dist/cache/cache.js:9:29
+      2   50.0%          JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      2  100.0%            JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/dist/utils/asyncHandler.js:5:12
+      2   50.0%          JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      2  100.0%            JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/utils/asyncHandler.js:5:12
+      4    2.2%    JS: *returnReply /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:20:26
+      4  100.0%      JS: *execute /Users/markkits/Desktop/practic/backend/node_modules/redis-parser/lib/parser.js:491:11
+      2   50.0%        JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:25:46
+      2  100.0%          JS: *emit node:events:465:44
+      2  100.0%            JS: *Readable.read node:internal/streams/readable:647:35
+      2   50.0%        JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:25:46
+      2  100.0%          JS: *emit node:events:465:44
+      2  100.0%            JS: *Readable.read node:internal/streams/readable:647:35
+      4    2.2%    JS: *nextTick node:internal/process/task_queues:113:18
+      3   75.0%      JS: *Readable.push node:internal/streams/readable:387:35
+      3  100.0%        JS: *parserOnMessageComplete node:_http_common:135:33
+      1   25.0%      JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      4    2.2%    JS: *emit node:events:465:44
+      2   50.0%      JS: ^onFinish node:_http_outgoing:1079:18
+      2  100.0%        JS: *callback node:internal/streams/writable:764:63
+      2  100.0%          JS: *afterWriteTick node:internal/streams/writable:693:24
+      2  100.0%            JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      2   50.0%      JS: *Readable.read node:internal/streams/readable:647:35
+      1   50.0%        JS: ^Socket.read node:net:785:33
+      1  100.0%          JS: *emitReadable_ node:internal/streams/readable:830:23
+      1  100.0%            JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      1   50.0%        JS: *Socket.read node:net:785:33
+      1  100.0%          JS: *emitReadable_ node:internal/streams/readable:830:23
+      1  100.0%            JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      3    1.7%    JS: ^remoteAddress node:net:898:52
+      3  100.0%      JS: ^getSocketAddr /Users/markkits/Desktop/practic/backend/node_modules/forwarded/index.js:46:24
+      3  100.0%        JS: ^forwarded /Users/markkits/Desktop/practic/backend/node_modules/forwarded/index.js:24:20
+      3  100.0%          JS: ^alladdrs /Users/markkits/Desktop/practic/backend/node_modules/proxy-addr/index.js:55:19
+      3  100.0%            JS: ^proxyaddr /Users/markkits/Desktop/practic/backend/node_modules/proxy-addr/index.js:222:20
+      3    1.7%    JS: ^end node:_http_outgoing:1084:45
+      2   66.7%      JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      2  100.0%        JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      2  100.0%          JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      2  100.0%            Builtin: AsyncFunctionAwaitResolveClosure
+      1   33.3%      JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      1  100.0%        JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      1  100.0%          JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      1  100.0%            Builtin: AsyncFunctionAwaitResolveClosure
+      3    1.7%    JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      3  100.0%      JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1   33.3%        JS: *logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      1  100.0%          JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1   33.3%        JS: *handle /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:136:31
+      1  100.0%          JS: *app /Users/markkits/Desktop/practic/backend/node_modules/express/lib/express.js:38:21
+      1  100.0%            JS: *parserOnIncoming node:_http_server:1040:26
+      1   33.3%        JS: *cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+      1  100.0%          JS: *corsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:203:35
+      1  100.0%            JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      3    1.7%    JS: *sendCommand /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:338:16
+      2   66.7%      JS: *getOrSetCache /Users/markkits/Desktop/practic/backend/dist/cache/cache.js:9:29
+      2  100.0%        JS: ~<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      2  100.0%          JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/dist/utils/asyncHandler.js:5:12
+      2  100.0%            JS: *dispatch /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/route.js:101:45
+      1   33.3%      JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/utils/Commander.js:74:21
+      1  100.0%        JS: ^getOrSetCache /Users/markkits/Desktop/practic/backend/dist/cache/cache.js:9:29
+      1  100.0%          JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      1  100.0%            JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/dist/utils/asyncHandler.js:5:12
+      3    1.7%    JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      3  100.0%      JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      2   66.7%        JS: ~<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      2  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+      2  100.0%            Builtin: CallApiCallbackOptimizedNoProfiling
+      1   33.3%        JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      1  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+      1  100.0%            Builtin: CallApiCallbackOptimizedNoProfiling
+      3    1.7%    JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      3    1.7%    JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      3  100.0%      JS: *handle /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:136:31
+      1   33.3%        JS: ^router /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:46:18
+      1  100.0%          JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1   33.3%        JS: *router /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:46:18
+      1  100.0%          JS: *process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      1  100.0%            JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1   33.3%        JS: *app /Users/markkits/Desktop/practic/backend/node_modules/express/lib/express.js:38:21
+      1  100.0%          JS: *parserOnIncoming node:_http_server:1040:26
+      1  100.0%            JS: ^parserOnHeadersComplete node:_http_common:71:33
+      3    1.7%    JS: *handle /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/layer.js:86:49
+      1   33.3%      JS: ^trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      1  100.0%        JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:280:64
+      1  100.0%          JS: ^process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      1  100.0%            JS: ^next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1   33.3%      JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:280:64
+      1  100.0%        JS: ^param /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:359:17
+      1  100.0%          JS: ^param /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:359:17
+      1  100.0%            JS: *process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      1   33.3%      JS: *process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      1  100.0%        JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1  100.0%          JS: *handle /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:136:31
+      1  100.0%            JS: *router /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:46:18
+      3    1.7%    JS: *Readable.push node:internal/streams/readable:387:35
+      2   66.7%      JS: ^onStreamRead node:internal/stream_base_commons:166:22
+      1   33.3%      JS: *parserOnMessageComplete node:_http_common:135:33
+      2    1.1%    JS: ~<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      2  100.0%      JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/dist/utils/asyncHandler.js:5:12
+      2  100.0%        JS: *dispatch /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/route.js:101:45
+      2  100.0%          JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:280:64
+      2  100.0%            JS: ^param /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:359:17
+      2    1.1%    JS: ^resOnFinish node:_http_server:980:21
+      1   50.0%      JS: *onFinish node:_http_outgoing:1079:18
+      1  100.0%        JS: *callback node:internal/streams/writable:764:63
+      1  100.0%          JS: *afterWriteTick node:internal/streams/writable:693:24
+      1  100.0%            JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      1   50.0%      JS: *emit node:events:465:44
+      1  100.0%        JS: ^onFinish node:_http_outgoing:1079:18
+      1  100.0%          JS: *callback node:internal/streams/writable:764:63
+      1  100.0%            JS: *afterWrite node:internal/streams/writable:699:20
+      2    1.1%    JS: ^parserOnIncoming node:_http_server:1040:26
+      2  100.0%      JS: ^parserOnHeadersComplete node:_http_common:71:33
+      2    1.1%    JS: ^parserOnHeadersComplete node:_http_common:71:33
+      2    1.1%    JS: ^parse /Users/markkits/Desktop/practic/backend/node_modules/content-type/index.js:106:16
+      2  100.0%      JS: ^setCharset /Users/markkits/Desktop/practic/backend/node_modules/express/lib/utils.js:246:41
+      2  100.0%        JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      2  100.0%          JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      2  100.0%            JS: ~<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      2    1.1%    JS: ^onFinished /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:46:21
+      2  100.0%      JS: ^logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      2  100.0%        JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      2  100.0%          JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      2  100.0%            JS: ^cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+      2    1.1%    JS: ^next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1   50.0%      JS: *xXssProtectionMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:313:42
+      1  100.0%        JS: *xPoweredByMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:306:38
+      1  100.0%          JS: *xPermittedCrossDomainPoliciesMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:299:57
+      1  100.0%            JS: *xFrameOptionsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:283:41
+      1   50.0%      JS: *expressInit /Users/markkits/Desktop/practic/backend/node_modules/express/lib/middleware/init.js:29:30
+      1  100.0%        JS: *handle /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          JS: ^trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:280:64
+      2    1.1%    JS: ^_dump node:_http_incoming:429:49
+      2  100.0%      JS: ^resOnFinish node:_http_server:980:21
+      1   50.0%        JS: ^emit node:events:465:44
+      1  100.0%          JS: ^onFinish node:_http_outgoing:1079:18
+      1  100.0%            JS: ^callback node:internal/streams/writable:764:63
+      1   50.0%        JS: *emit node:events:465:44
+      1  100.0%          JS: ^onFinish node:_http_outgoing:1079:18
+      1  100.0%            JS: ^callback node:internal/streams/writable:764:63
+      2    1.1%    JS: ^Readable node:internal/streams/readable:320:18
+      1   50.0%      JS: ^IncomingMessage node:_http_incoming:50:25
+      1  100.0%        JS: ^parserOnHeadersComplete node:_http_common:71:33
+      1   50.0%      JS: *parserOnHeadersComplete node:_http_common:71:33
+      2    1.1%    JS: ^AsyncResource node:async_hooks:165:14
+      2  100.0%      JS: ^wrap /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:219:15
+      2  100.0%        JS: ^onFinished /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:46:21
+      2  100.0%          JS: ^logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      2  100.0%            JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      2    1.1%    JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/utils/Commander.js:74:21
+      2  100.0%      JS: ^getOrSetCache /Users/markkits/Desktop/practic/backend/dist/cache/cache.js:9:29
+      1   50.0%        JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      1  100.0%          JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/dist/utils/asyncHandler.js:5:12
+      1  100.0%            JS: *handle /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/layer.js:86:49
+      1   50.0%        JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      1  100.0%          JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/utils/asyncHandler.js:5:12
+      1  100.0%            JS: *dispatch /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/route.js:101:45
+      2    1.1%    JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Command.js:321:16
+      2  100.0%      JS: ^returnReply /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:50:16
+      2  100.0%        JS: ^returnReply /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:20:26
+      2  100.0%          JS: ^execute /Users/markkits/Desktop/practic/backend/node_modules/redis-parser/lib/parser.js:491:11
+      2  100.0%            JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:25:46
+      2    1.1%    JS: *transformReply /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Command.js:177:19
+      2  100.0%      JS: *returnReply /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:20:26
+      1   50.0%        JS: ^execute /Users/markkits/Desktop/practic/backend/node_modules/redis-parser/lib/parser.js:491:11
+      1  100.0%          JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:25:46
+      1  100.0%            JS: *emit node:events:465:44
+      1   50.0%        JS: *execute /Users/markkits/Desktop/practic/backend/node_modules/redis-parser/lib/parser.js:491:11
+      1  100.0%          JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:25:46
+      1  100.0%            JS: *emit node:events:465:44
+      2    1.1%    JS: *tokenValue /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:591:38
+      2  100.0%      JS: ^<anonymous> :1:20
+      2  100.0%        JS: ^developmentFormatLine /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:216:53
+      2  100.0%          JS: ^logRequest /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:145:25
+      1   50.0%            JS: ^runInAsyncScope node:async_hooks:204:18
+      1   50.0%            JS: *runInAsyncScope node:async_hooks:204:18
+      2    1.1%    JS: *resOnFinish node:_http_server:980:21
+      2  100.0%      JS: *onFinish node:_http_outgoing:1079:18
+      1   50.0%        JS: ^callback node:internal/streams/writable:764:63
+      1  100.0%          JS: *afterWriteTick node:internal/streams/writable:693:24
+      1  100.0%            JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      1   50.0%        JS: *callback node:internal/streams/writable:764:63
+      1  100.0%          JS: *afterWriteTick node:internal/streams/writable:693:24
+      1  100.0%            JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      2    1.1%    JS: *logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      2  100.0%      JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      2  100.0%        JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      2  100.0%          JS: *cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+      2  100.0%            JS: *corsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:203:35
+      2    1.1%    JS: *dispatch /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/route.js:101:45
+      1   50.0%      JS: *handle /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%        JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:280:64
+      1  100.0%          JS: ^param /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:359:17
+      1  100.0%            JS: ^param /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:359:17
+      1   50.0%      JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:280:64
+      1  100.0%        JS: ^param /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:359:17
+      1  100.0%          JS: ^param /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:359:17
+      1  100.0%            JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      2    1.1%    JS: *AsyncResource node:async_hooks:165:14
+      2  100.0%      JS: *logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      2  100.0%        JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      2  100.0%          JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      2  100.0%            JS: *cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+
+    147    1.4%  Builtin: KeyedLoadIC_Megamorphic
+     18   12.2%    Builtin: CEntry_Return1_ArgvOnStack_NoBuiltinExit
+      5   27.8%      JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/request.js:467:36
+      5  100.0%        Builtin: CEntry_Return1_ArgvOnStack_NoBuiltinExit
+      4   80.0%          JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      4  100.0%            JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      1   20.0%          JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      1  100.0%            JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      2   11.1%      JS: ^end node:_http_outgoing:1084:45
+      1   50.0%        JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      1  100.0%          JS: ^json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      1  100.0%            JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      1   50.0%        JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      1  100.0%          JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      1  100.0%            JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      1    5.6%      JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      1  100.0%        JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      1  100.0%          JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      1  100.0%            Builtin: AsyncFunctionAwaitResolveClosure
+      1    5.6%      JS: ^hasbody /Users/markkits/Desktop/practic/backend/node_modules/type-is/index.js:92:18
+      1  100.0%        JS: ^jsonParser /Users/markkits/Desktop/practic/backend/node_modules/body-parser/lib/types/json.js:105:30
+      1  100.0%          JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1    5.6%      JS: ^getip /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:532:16
+      1  100.0%        JS: ^logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      1  100.0%          JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1    5.6%      JS: ^detachSocket node:_http_server:299:62
+      1  100.0%        JS: ^resOnFinish node:_http_server:980:21
+      1  100.0%          JS: ^emit node:events:465:44
+      1  100.0%            JS: ^onFinish node:_http_outgoing:1079:18
+      1    5.6%      JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/request.js:467:36
+      1  100.0%        Builtin: CEntry_Return1_ArgvOnStack_NoBuiltinExit
+      1  100.0%          JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      1  100.0%            JS: ^json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      1    5.6%      JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      1  100.0%        JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      1  100.0%          JS: ~<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      1  100.0%            Builtin: AsyncFunctionAwaitResolveClosure
+      1    5.6%      JS: *resOnFinish node:_http_server:980:21
+      1  100.0%        JS: *onFinish node:_http_outgoing:1079:18
+      1  100.0%          JS: ^callback node:internal/streams/writable:764:63
+      1  100.0%            JS: *afterWriteTick node:internal/streams/writable:693:24
+      1    5.6%      JS: *onFinish node:_http_outgoing:1079:18
+      1  100.0%        JS: *callback node:internal/streams/writable:764:63
+      1  100.0%          JS: *afterWriteTick node:internal/streams/writable:693:24
+      1  100.0%            JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      1    5.6%      JS: *logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      1  100.0%        JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      1  100.0%          JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1  100.0%            JS: *cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+      1    5.6%      JS: *ip /Users/markkits/Desktop/practic/backend/node_modules/express/lib/request.js:349:36
+      1  100.0%        Builtin: CEntry_Return1_ArgvOnStack_NoBuiltinExit
+      1  100.0%          JS: *logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      1  100.0%            JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:280:64
+      1    5.6%      JS: *end node:_http_outgoing:1084:45
+      1  100.0%        JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      1  100.0%          JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      1  100.0%            JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+     16   10.9%    JS: *parserOnIncoming node:_http_server:1040:26
+     10   62.5%      JS: *parserOnHeadersComplete node:_http_common:71:33
+      6   37.5%      JS: ^parserOnHeadersComplete node:_http_common:71:33
+      6    4.1%    JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      6  100.0%      JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      3   50.0%        JS: ~<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      3  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+      3  100.0%            Builtin: CallApiCallbackOptimizedNoProfiling
+      2   33.3%        JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      2  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+      2  100.0%            Builtin: CallApiCallbackOptimizedNoProfiling
+      1   16.7%        JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      1  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+      1  100.0%            Builtin: CallApiCallbackOptimizedNoProfiling
+      5    3.4%    JS: *xPermittedCrossDomainPoliciesMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:299:57
+      5  100.0%      JS: *xFrameOptionsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:283:41
+      5  100.0%        JS: *xDownloadOptionsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:263:44
+      5  100.0%          JS: *xDnsPrefetchControlMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:256:47
+      5  100.0%            JS: *xContentTypeOptionsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:248:47
+      4    2.7%    JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      4  100.0%      JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      3   75.0%        JS: *xXssProtectionMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:313:42
+      3  100.0%          JS: *xPoweredByMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:306:38
+      3  100.0%            JS: *xPermittedCrossDomainPoliciesMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:299:57
+      1   25.0%        JS: ^query /Users/markkits/Desktop/practic/backend/node_modules/express/lib/middleware/query.js:39:24
+      1  100.0%          JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      4    2.7%    JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      4    2.7%    JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      3   75.0%      JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      3  100.0%        Builtin: AsyncFunctionAwaitResolveClosure
+      3  100.0%          Builtin: CallApiCallbackOptimizedNoProfiling
+      3  100.0%            JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      1   25.0%      JS: ~<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      1  100.0%        Builtin: AsyncFunctionAwaitResolveClosure
+      1  100.0%          Builtin: CallApiCallbackOptimizedNoProfiling
+      1  100.0%            JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      4    2.7%    JS: *execute /Users/markkits/Desktop/practic/backend/node_modules/redis-parser/lib/parser.js:491:11
+      3   75.0%      JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:25:46
+      3  100.0%        JS: *emit node:events:465:44
+      3  100.0%          JS: *Readable.read node:internal/streams/readable:647:35
+      3  100.0%            JS: *Socket.read node:net:785:33
+      1   25.0%      JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/DataHandler.js:25:46
+      1  100.0%        JS: *emit node:events:465:44
+      1  100.0%          JS: *Readable.read node:internal/streams/readable:647:35
+      1  100.0%            JS: *Socket.read node:net:785:33
+      3    2.0%    JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      2   66.7%      JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      1   50.0%        JS: ~<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      1  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+      1  100.0%            Builtin: CallApiCallbackOptimizedNoProfiling
+      1   50.0%        JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      1  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+      1  100.0%            Builtin: CallApiCallbackOptimizedNoProfiling
+      1   33.3%      JS: ^json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      1  100.0%        JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      1  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+      1  100.0%            Builtin: CallApiCallbackOptimizedNoProfiling
+      3    2.0%    JS: ^getResponseHeader /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:397:48
+      2   66.7%      JS: *tokenValue /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:591:38
+      2  100.0%        JS: ^<anonymous> :1:20
+      2  100.0%          JS: ^developmentFormatLine /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:216:53
+      2  100.0%            JS: ^logRequest /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:145:25
+      1   33.3%      JS: *logRequest /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:145:25
+      1  100.0%        JS: *runInAsyncScope node:async_hooks:204:18
+      1  100.0%          JS: *onFinish /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:96:21
+      1  100.0%            JS: *onevent /Users/markkits/Desktop/practic/backend/node_modules/ee-first/index.js:81:26
+      3    2.0%    JS: *socketListenerWrap node:_http_server:1203:37
+      1   33.3%      JS: ^assignSocket node:_http_server:288:62
+      1  100.0%        JS: ^parserOnIncoming node:_http_server:1040:26
+      1  100.0%          JS: ^parserOnHeadersComplete node:_http_common:71:33
+      1   33.3%      JS: *parserOnIncoming node:_http_server:1040:26
+      1  100.0%        JS: *parserOnHeadersComplete node:_http_common:71:33
+      1   33.3%      JS: *attachFinishedListener /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:91:33
+      1  100.0%        JS: *onFinished /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:46:21
+      1  100.0%          JS: *logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      1  100.0%            JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      3    2.0%    JS: *parserOnHeadersComplete node:_http_common:71:33
+      3    2.0%    JS: *app /Users/markkits/Desktop/practic/backend/node_modules/express/lib/express.js:38:21
+      3  100.0%      JS: *parserOnIncoming node:_http_server:1040:26
+      2   66.7%        JS: ^parserOnHeadersComplete node:_http_common:71:33
+      1   33.3%        JS: *parserOnHeadersComplete node:_http_common:71:33
+      2    1.4%    JS: ^xPoweredByMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:306:38
+      2  100.0%      JS: *internalNext /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:527:27
+      2  100.0%        JS: ^xPermittedCrossDomainPoliciesMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:299:57
+      2  100.0%          JS: *internalNext /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:527:27
+      2  100.0%            JS: ^xFrameOptionsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:283:41
+      2    1.4%    JS: ^writeHead node:_http_server:348:19
+      2  100.0%      JS: ^writeHead /Users/markkits/Desktop/practic/backend/node_modules/on-headers/index.js:34:29
+      2  100.0%        JS: ^_implicitHeader node:_http_server:343:68
+      2  100.0%          JS: ^write_ node:_http_outgoing:942:16
+      2  100.0%            JS: ^end node:_http_outgoing:1084:45
+      2    1.4%    JS: ^onStreamRead node:internal/stream_base_commons:166:22
+      2    1.4%    JS: ^insert node:internal/timers:371:16
+      2  100.0%      JS: *setStreamTimeout node:internal/stream_base_commons:236:26
+      1   50.0%        JS: ^resOnFinish node:_http_server:980:21
+      1  100.0%          JS: *emit node:events:465:44
+      1  100.0%            JS: ^onFinish node:_http_outgoing:1079:18
+      1   50.0%        JS: *resOnFinish node:_http_server:980:21
+      1  100.0%          JS: *onFinish node:_http_outgoing:1079:18
+      1  100.0%            JS: *callback node:internal/streams/writable:764:63
+      2    1.4%    JS: ^end node:_http_outgoing:1084:45
+      2  100.0%      JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      2  100.0%        JS: ^json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      2  100.0%          JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      2  100.0%            Builtin: AsyncFunctionAwaitResolveClosure
+      2    1.4%    JS: ^Socket._writeGeneric node:net:940:42
+      2  100.0%      JS: *writeOrBuffer node:internal/streams/writable:548:23
+      2  100.0%        JS: *Writable.write node:internal/streams/writable:504:36
+      2  100.0%          JS: *sendCommand /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:338:16
+      2  100.0%            JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/utils/Commander.js:74:21
+      2    1.4%    JS: ^Socket._getpeername node:net:873:41
+      2  100.0%      JS: ^remoteAddress node:net:898:52
+      2  100.0%        JS: ^getSocketAddr /Users/markkits/Desktop/practic/backend/node_modules/forwarded/index.js:46:24
+      2  100.0%          JS: ^forwarded /Users/markkits/Desktop/practic/backend/node_modules/forwarded/index.js:24:20
+      2  100.0%            JS: ^alladdrs /Users/markkits/Desktop/practic/backend/node_modules/proxy-addr/index.js:55:19
+      2    1.4%    JS: *writeHead node:_http_server:348:19
+      2  100.0%      JS: *write_ node:_http_outgoing:942:16
+      2  100.0%        JS: *end node:_http_outgoing:1084:45
+      2  100.0%          JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      2  100.0%            JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      2    1.4%    JS: *router /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:46:18
+      1   50.0%      JS: *process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      1  100.0%        JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1  100.0%          JS: ^jsonParser /Users/markkits/Desktop/practic/backend/node_modules/body-parser/lib/types/json.js:105:30
+      1  100.0%            JS: *process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      1   50.0%      JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:280:64
+      1  100.0%        JS: ^process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      1  100.0%          JS: ^next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1  100.0%            JS: ^jsonParser /Users/markkits/Desktop/practic/backend/node_modules/body-parser/lib/types/json.js:105:30
+      2    1.4%    JS: *process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      2  100.0%      JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1   50.0%        JS: *query /Users/markkits/Desktop/practic/backend/node_modules/express/lib/middleware/query.js:39:24
+      1  100.0%          JS: *process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      1  100.0%            JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1   50.0%        JS: *handle /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:136:31
+      1  100.0%          JS: *app /Users/markkits/Desktop/practic/backend/node_modules/express/lib/express.js:38:21
+      1  100.0%            JS: *parserOnIncoming node:_http_server:1040:26
+      2    1.4%    JS: *first /Users/markkits/Desktop/practic/backend/node_modules/ee-first/index.js:24:15
+      2  100.0%      JS: *logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      2  100.0%        JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      2  100.0%          JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      2  100.0%            JS: *cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+      2    1.4%    JS: *applyHeaders /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:144:24
+      1   50.0%      JS: *cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+      1  100.0%        JS: *corsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:203:35
+      1  100.0%          JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1   50.0%      JS: *applyHeaders /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:144:24
+      1  100.0%        JS: ^cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+      1  100.0%          JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:219:57
+      1  100.0%            JS: ^originCallback /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:213:39
+      2    1.4%    JS: *_send node:_http_outgoing:398:49
+      1   50.0%      JS: ^write_ node:_http_outgoing:942:16
+      1  100.0%        JS: ^end node:_http_outgoing:1084:45
+      1  100.0%          JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      1  100.0%            JS: ^json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      1   50.0%      JS: *write_ node:_http_outgoing:942:16
+      1  100.0%        JS: *end node:_http_outgoing:1084:45
+      1  100.0%          JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      1  100.0%            JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      2    1.4%    JS: *Socket._writeGeneric node:net:940:42
+      2  100.0%      JS: *clearBuffer node:internal/streams/writable:744:21
+      1   50.0%        JS: *end node:_http_outgoing:1084:45
+      1  100.0%          JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      1  100.0%            JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      1   50.0%        JS: *Writable.uncork node:internal/streams/writable:520:37
+      1  100.0%          JS: ^end node:_http_outgoing:1084:45
+      1  100.0%            JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+
+    133    1.3%  Builtin: LoadIC_Megamorphic
+      7    5.3%    JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      6    4.5%    JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      6  100.0%      JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      6  100.0%        JS: *cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+      6  100.0%          JS: *corsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:203:35
+      6  100.0%            JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      5    3.8%    JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1   20.0%      JS: ^logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      1  100.0%        JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      1  100.0%          JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1  100.0%            JS: *cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+      1   20.0%      JS: ^jsonParser /Users/markkits/Desktop/practic/backend/node_modules/body-parser/lib/types/json.js:105:30
+      1  100.0%        JS: *process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      1  100.0%          JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1  100.0%            JS: *logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      1   20.0%      JS: ^handle /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:136:31
+      1  100.0%        JS: ^handle /Users/markkits/Desktop/practic/backend/node_modules/express/lib/application.js:165:29
+      1  100.0%          JS: ^app /Users/markkits/Desktop/practic/backend/node_modules/express/lib/express.js:38:21
+      1  100.0%            JS: *emit node:events:465:44
+      1   20.0%      JS: *handle /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:136:31
+      1  100.0%        JS: *app /Users/markkits/Desktop/practic/backend/node_modules/express/lib/express.js:38:21
+      1  100.0%          JS: *parserOnIncoming node:_http_server:1040:26
+      1  100.0%            JS: *parserOnHeadersComplete node:_http_common:71:33
+      1   20.0%      JS: *expressInit /Users/markkits/Desktop/practic/backend/node_modules/express/lib/middleware/init.js:29:30
+      1  100.0%        JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      1  100.0%          JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1  100.0%            JS: *query /Users/markkits/Desktop/practic/backend/node_modules/express/lib/middleware/query.js:39:24
+      4    3.0%    JS: *xPermittedCrossDomainPoliciesMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:299:57
+      4  100.0%      JS: *xFrameOptionsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:283:41
+      4  100.0%        JS: *xDownloadOptionsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:263:44
+      4  100.0%          JS: *xDnsPrefetchControlMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:256:47
+      4  100.0%            JS: *xContentTypeOptionsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/helmet/index.cjs:248:47
+      4    3.0%    JS: *process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      4  100.0%      JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      2   50.0%        JS: *cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+      2  100.0%          JS: *corsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:203:35
+      2  100.0%            JS: *process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      2   50.0%        JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:204:37
+      2  100.0%          JS: ^optionsCallback /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:198:34
+      2  100.0%            JS: ^corsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:203:35
+      4    3.0%    JS: *parserOnIncoming node:_http_server:1040:26
+      2   50.0%      JS: ^parserOnHeadersComplete node:_http_common:71:33
+      2   50.0%      JS: *parserOnHeadersComplete node:_http_common:71:33
+      4    3.0%    JS: *onevent /Users/markkits/Desktop/practic/backend/node_modules/ee-first/index.js:81:26
+      4  100.0%      JS: *onFinish node:_http_outgoing:1079:18
+      4  100.0%        JS: *callback node:internal/streams/writable:764:63
+      4  100.0%          JS: *afterWriteTick node:internal/streams/writable:693:24
+      4  100.0%            JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      4    3.0%    JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      2   50.0%      JS: ~<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      2  100.0%        Builtin: AsyncFunctionAwaitResolveClosure
+      2  100.0%          Builtin: CallApiCallbackOptimizedNoProfiling
+      2  100.0%            JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      2   50.0%      JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      2  100.0%        Builtin: AsyncFunctionAwaitResolveClosure
+      2  100.0%          Builtin: CallApiCallbackOptimizedNoProfiling
+      2  100.0%            JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      4    3.0%    JS: *end node:_http_outgoing:1084:45
+      3   75.0%      JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      3  100.0%        JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      2   66.7%          JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      2  100.0%            Builtin: AsyncFunctionAwaitResolveClosure
+      1   33.3%          JS: ~<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      1  100.0%            Builtin: AsyncFunctionAwaitResolveClosure
+      1   25.0%      JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      1  100.0%        JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      1  100.0%          JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      1  100.0%            Builtin: AsyncFunctionAwaitResolveClosure
+      4    3.0%    JS: *app /Users/markkits/Desktop/practic/backend/node_modules/express/lib/express.js:38:21
+      4  100.0%      JS: *parserOnIncoming node:_http_server:1040:26
+      2   50.0%        JS: ^parserOnHeadersComplete node:_http_common:71:33
+      2   50.0%        JS: *parserOnHeadersComplete node:_http_common:71:33
+      4    3.0%    JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/express/lib/request.js:467:36
+      4  100.0%      Builtin: CEntry_Return1_ArgvOnStack_NoBuiltinExit
+      4  100.0%        JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      4  100.0%          JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      2   50.0%            JS: ~<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      1   25.0%            JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      1   25.0%            JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      4    3.0%    Builtin: CEntry_Return1_ArgvOnStack_NoBuiltinExit
+      3   75.0%      JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      3  100.0%        JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      2   66.7%          JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      2  100.0%            Builtin: AsyncFunctionAwaitResolveClosure
+      1   33.3%          JS: ~<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      1  100.0%            Builtin: AsyncFunctionAwaitResolveClosure
+      1   25.0%      JS: *logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      1  100.0%        JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      1  100.0%          JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1  100.0%            JS: *cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+      3    2.3%    JS: *write_ node:_http_outgoing:942:16
+      3  100.0%      JS: *end node:_http_outgoing:1084:45
+      3  100.0%        JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      3  100.0%          JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      1   33.3%            JS: ~<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      1   33.3%            JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      1   33.3%            JS: *<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      3    2.3%    JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      3  100.0%      JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      3  100.0%        JS: ~<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:22:71
+      3  100.0%          Builtin: AsyncFunctionAwaitResolveClosure
+      3  100.0%            Builtin: CallApiCallbackOptimizedNoProfiling
+      3    2.3%    JS: *parserOnHeadersComplete node:_http_common:71:33
+      3    2.3%    JS: *onFinish node:_http_outgoing:1079:18
+      2   66.7%      JS: *callback node:internal/streams/writable:764:63
+      2  100.0%        JS: *afterWriteTick node:internal/streams/writable:693:24
+      2  100.0%          JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      1   33.3%      JS: ^callback node:internal/streams/writable:764:63
+      1  100.0%        JS: *afterWriteTick node:internal/streams/writable:693:24
+      1  100.0%          JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      3    2.3%    JS: *logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      2   66.7%      JS: *process_params /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:338:47
+      2  100.0%        JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1   50.0%          JS: *cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+      1  100.0%            JS: *corsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:203:35
+      1   50.0%          JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:204:37
+      1  100.0%            JS: ^optionsCallback /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:198:34
+      1   33.3%      JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      1  100.0%        JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1  100.0%          JS: *cors /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:159:16
+      1  100.0%            JS: *corsMiddleware /Users/markkits/Desktop/practic/backend/node_modules/cors/lib/index.js:203:35
+      3    2.3%    JS: *handle /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:136:31
+      3  100.0%      JS: *app /Users/markkits/Desktop/practic/backend/node_modules/express/lib/express.js:38:21
+      3  100.0%        JS: *parserOnIncoming node:_http_server:1040:26
+      2   66.7%          JS: ^parserOnHeadersComplete node:_http_common:71:33
+      1   33.3%          JS: *parserOnHeadersComplete node:_http_common:71:33
+      3    2.3%    JS: *cleanup /Users/markkits/Desktop/practic/backend/node_modules/ee-first/index.js:58:19
+      2   66.7%      JS: ^onFinish /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:96:21
+      2  100.0%        JS: ^callback /Users/markkits/Desktop/practic/backend/node_modules/ee-first/index.js:53:20
+      2  100.0%          JS: ^onevent /Users/markkits/Desktop/practic/backend/node_modules/ee-first/index.js:81:26
+      1   50.0%            JS: *onFinish node:_http_outgoing:1079:18
+      1   50.0%            JS: *emit node:events:465:44
+      1   33.3%      JS: ^callback /Users/markkits/Desktop/practic/backend/node_modules/ee-first/index.js:53:20
+      1  100.0%        JS: ^onevent /Users/markkits/Desktop/practic/backend/node_modules/ee-first/index.js:81:26
+      1  100.0%          JS: *emit node:events:465:44
+      1  100.0%            JS: ^onFinish node:_http_outgoing:1079:18
+      3    2.3%    JS: *addListener node:events:609:58
+      1   33.3%      JS: *parserOnIncoming node:_http_server:1040:26
+      1  100.0%        JS: ^parserOnHeadersComplete node:_http_common:71:33
+      1   33.3%      JS: *first /Users/markkits/Desktop/practic/backend/node_modules/ee-first/index.js:24:15
+      1  100.0%        JS: *logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      1  100.0%          JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      1   33.3%      JS: *attachFinishedListener /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:91:33
+      1  100.0%        JS: *onFinished /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:46:21
+      1  100.0%          JS: *logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      1  100.0%            JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      3    2.3%    JS: *Socket._writeGeneric node:net:940:42
+      2   66.7%      JS: *writeOrBuffer node:internal/streams/writable:548:23
+      2  100.0%        JS: *Writable.write node:internal/streams/writable:504:36
+      2  100.0%          JS: *sendCommand /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/Redis.js:338:16
+      1   50.0%            JS: *getOrSetCache /Users/markkits/Desktop/practic/backend/dist/cache/cache.js:9:29
+      1   50.0%            JS: *<anonymous> /Users/markkits/Desktop/practic/backend/node_modules/ioredis/built/utils/Commander.js:74:21
+      1   33.3%      JS: *clearBuffer node:internal/streams/writable:744:21
+      1  100.0%        JS: *end node:_http_outgoing:1084:45
+      1  100.0%          JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      1  100.0%            JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      2    1.5%    JS: ^onStreamRead node:internal/stream_base_commons:166:22
+      2    1.5%    JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      2  100.0%      Builtin: AsyncFunctionAwaitResolveClosure
+      2  100.0%        Builtin: CallApiCallbackOptimizedNoProfiling
+      2  100.0%          JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      2    1.5%    JS: *socketListenerWrap node:_http_server:1203:37
+      1   50.0%      JS: *parserOnIncoming node:_http_server:1040:26
+      1  100.0%        JS: ^parserOnHeadersComplete node:_http_common:71:33
+      1   50.0%      JS: *first /Users/markkits/Desktop/practic/backend/node_modules/ee-first/index.js:24:15
+      1  100.0%        JS: *logger /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:132:26
+      1  100.0%          JS: *trim_prefix /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            JS: *next /Users/markkits/Desktop/practic/backend/node_modules/express/lib/router/index.js:177:16
+      2    1.5%    JS: *logRequest /Users/markkits/Desktop/practic/backend/node_modules/morgan/index.js:145:25
+      2  100.0%      JS: *runInAsyncScope node:async_hooks:204:18
+      2  100.0%        JS: *onFinish /Users/markkits/Desktop/practic/backend/node_modules/on-finished/index.js:96:21
+      2  100.0%          JS: *onevent /Users/markkits/Desktop/practic/backend/node_modules/ee-first/index.js:81:26
+      2  100.0%            JS: *onFinish node:_http_outgoing:1079:18
+      2    1.5%    JS: *_send node:_http_outgoing:398:49
+      1   50.0%      JS: ^end node:_http_outgoing:1084:45
+      1  100.0%        JS: ^send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      1  100.0%          JS: ^json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+      1  100.0%            JS: ^<anonymous> /Users/markkits/Desktop/practic/backend/dist/routes/articles.js:14:66
+      1   50.0%      JS: *write_ node:_http_outgoing:942:16
+      1  100.0%        JS: *end node:_http_outgoing:1084:45
+      1  100.0%          JS: *send /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:111:25
+      1  100.0%            JS: *json /Users/markkits/Desktop/practic/backend/node_modules/express/lib/response.js:250:25
+

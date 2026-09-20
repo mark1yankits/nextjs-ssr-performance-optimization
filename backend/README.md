@@ -21,3 +21,10 @@ npm run dev
 - `src/db/seed.ts` — наповнює таблицю `articles` тестовими даними (`npm run db:seed`).
 - Таблиця `articles` має індекс `idx_articles_published_at` для сортування/пагінації
   за датою публікації та унікальний індекс по `slug`.
+
+## API
+
+- `GET /api/articles?page=1&limit=20` — список статей, відсортований за `published_at DESC`.
+  `limit` обмежено діапазоном 1–100. У відповіді немає поля `content` (вибираються тільки
+  потрібні для списку поля), додатково повертаються `total`, `page`, `limit`, `totalPages`.
+- `GET /api/articles/:slug` — повна стаття (з `content`) або `404`, якщо не знайдено.

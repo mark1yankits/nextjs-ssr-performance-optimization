@@ -21,3 +21,12 @@ npm run dev
   (`cache`/`next.revalidate`) налаштовується окремо для кожного виклику на сторінці.
 - `src/lib/types.ts` — типи даних (`Article`, `ArticleListItem`, `ArticleListResponse`),
   що відповідають формату відповідей backend API.
+- `src/components/ArticleList.tsx` — презентаційний список статей, спільний для
+  SSR/ISR/streaming сторінок.
+
+## Сторінки-демо
+
+- `/ssr` — **SSR**: `export const dynamic = "force-dynamic"` + `fetch(..., { cache: "no-store" })`,
+  рендериться заново при кожному запиті (час рендерингу на сторінці змінюється при кожному
+  оновленні). Помилки API та таймаут (5с, див. `fetchApi`) обробляються без падіння сторінки —
+  показується повідомлення про помилку; `error.tsx` ловить неочікувані винятки.

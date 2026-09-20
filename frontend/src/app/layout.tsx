@@ -16,6 +16,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <strong>SSR Performance Practicum</strong>
           <nav>
             <Link href="/">Головна</Link>
+            <Link href="/ssr">SSR</Link>
           </nav>
         </header>
         <main>{children}</main>

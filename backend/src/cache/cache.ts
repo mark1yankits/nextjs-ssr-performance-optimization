@@ -1,3 +1,4 @@
+import { config } from "../config";
 import { redis } from "./redis";
 
 export interface CacheResult<T> {
@@ -12,6 +13,10 @@ export async function getOrSetCache<T>(
   ttlSeconds: number,
   fetcher: () => Promise<T>,
 ): Promise<CacheResult<T>> {
+  if (!config.cacheEnabled) {
+    return { data: await fetcher(), hit: false };
+  }
+
   try {
     const cached = await redis.get(key);
     if (cached !== null) {

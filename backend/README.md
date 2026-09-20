@@ -5,11 +5,10 @@ Express API на TypeScript.
 ## Запуск
 
 ```bash
-cp .env.example .env
+cp .env.example .env   # вставити свій Neon DATABASE_URL
 npm install
-docker compose up -d postgres   # з кореня репозиторію
 npm run db:migrate
-npm run db:seed                 # 5000 тестових статей
+npm run db:seed        # 5000 тестових статей
 npm run dev
 ```
 

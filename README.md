@@ -9,19 +9,19 @@
 
 ```
 practic/
-├── backend/          # Node.js API (Express) + Redis + PostgreSQL
+├── backend/          # Node.js API (Express) + Redis + PostgreSQL (Neon)
 ├── frontend/         # Next.js застосунок (SSR/ISR/streaming)
 ├── load-tests/       # Сценарії k6
 ├── docs/             # Результати вимірювань, звіти, графіки
-├── docker-compose.yml # PostgreSQL + Redis для локальної розробки
+├── docker-compose.yml # Redis для локальної розробки
 └── ЗАВДАННЯ.md
 ```
 
 ## Швидкий старт
 
-1. Підняти базу даних та кеш:
+1. Підняти Redis:
    ```bash
    docker compose up -d
    ```
-2. Скопіювати `.env.example` у `.env` (у корені, а також у `backend/` і `frontend/`, коли вони будуть створені).
+2. Скопіювати `.env.example` у `.env` (у корені, а також у `backend/` і `frontend/`, коли вони будуть створені) і вставити власний Neon `DATABASE_URL`.
 3. Backend та frontend — інструкції з'являться у відповідних теках у міру реалізації.

@@ -1,0 +1,29 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Backend build
+backend/dist/
+
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/next-env.d.ts
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# k6
+load-tests/results/
+
+# IDE
+.vscode/
+.idea/

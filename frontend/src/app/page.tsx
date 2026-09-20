@@ -12,6 +12,9 @@ export default function Home() {
         <li>
           <Link href="/ssr">SSR</Link> — рендеринг на сервері при кожному запиті
         </li>
+        <li>
+          <Link href="/isr">ISR</Link> — кешування з фоновою ревалідацією (30с)
+        </li>
       </ul>
     </div>
   );

@@ -7,4 +7,5 @@ export const config = {
   nodeEnv: process.env.NODE_ENV ?? "development",
   databaseUrl:
     process.env.DATABASE_URL ?? "postgres://practic:practic@localhost:5433/practic",
+  redisUrl: process.env.REDIS_URL ?? "redis://localhost:6379",
 };

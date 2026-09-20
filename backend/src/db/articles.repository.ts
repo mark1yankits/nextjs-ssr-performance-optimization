@@ -51,3 +51,15 @@ export async function getArticleBySlug(slug: string): Promise<Article | null> {
 
   return result.rows[0] ?? null;
 }
+
+export async function incrementViewCount(slug: string): Promise<Article | null> {
+  const result = await pool.query<Article>(
+    `UPDATE articles
+     SET view_count = view_count + 1
+     WHERE slug = $1
+     RETURNING id, slug, title, excerpt, content, author, view_count, published_at`,
+    [slug],
+  );
+
+  return result.rows[0] ?? null;
+}

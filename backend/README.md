@@ -7,8 +7,9 @@ Express API на TypeScript.
 ```bash
 cp .env.example .env   # вставити свій Neon DATABASE_URL
 npm install
+docker compose up -d redis   # з кореня репозиторію
 npm run db:migrate
-npm run db:seed        # 5000 тестових статей
+npm run db:seed              # 5000 тестових статей
 npm run dev
 ```
 
@@ -28,3 +29,14 @@ npm run dev
   `limit` обмежено діапазоном 1–100. У відповіді немає поля `content` (вибираються тільки
   потрібні для списку поля), додатково повертаються `total`, `page`, `limit`, `totalPages`.
 - `GET /api/articles/:slug` — повна стаття (з `content`) або `404`, якщо не знайдено.
+- `POST /api/articles/:slug/view` — інкрементує `view_count` та інвалідує кеш цієї статті.
+
+## Кешування (Redis)
+
+- Список (`GET /api/articles`) кешується на 30с за ключем `articles:list:page=<p>:limit=<l>`.
+- Деталі статті (`GET /api/articles/:slug`) кешуються на 60с за ключем `articles:detail:<slug>`.
+- Кожна відповідь містить заголовок `X-Cache: HIT|MISS` — зручно для порівняння продуктивності
+  з кешем і без нього.
+- `POST /api/articles/:slug/view` оновлює БД і видаляє (`DEL`) кешований запис деталей статті,
+  демонструючи інвалідацію кешу після запису.
+- Якщо Redis недоступний, ендпоінти працюють напряму з БД (без кешу), а не падають.
